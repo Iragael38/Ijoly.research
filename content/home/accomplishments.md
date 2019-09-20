@@ -19,33 +19,37 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
+  organization = "Grenoble-Inp"
   organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  title = "PEDR"
   url = ""
   certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  date_start = "2018-02-01"
   date_end = ""
-  description = ""
+  description = """"Research prize"""
+
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "CNU"
+  organization_url = "https://www.coursera.org"
+  title = "Qualification PU"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  certificate_url = "https://www.coursera.org"
+  date_start = "2018-02-01"
+  date_end = ""
+  description = """"Qualification in section 5: Economics"""
+
+
+[[item]]
+  organization = "CNU"
+  organization_url = "https://www.coursera.org"
+  title = "Qualification MCF"
+  url = ""
+  certificate_url = "https://www.coursera.org"
+  date_start = "2007-02-01"
+  date_end = ""
+  description = """Qualification in section 5: Economics and 24: Urban planning"""
+
+  
 
 +++

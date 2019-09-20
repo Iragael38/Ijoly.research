@@ -18,27 +18,46 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Assistant Professor"
+  company = "Industrial Engineering and Management School - Grenoble Inp"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Grenoble - France"
+  date_start = "2007-11-01"
   date_end = ""
   description = """
-  Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Research:  
+  
+    - Consumption and Behavioral Economics 
+    - Transport Economics
+  * Teaching: Economics and Data Analysis
+  * Admin: 
   """
 
+
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Researcher"
+  company = """University Lyon 2 - Transport Economics Lab"""
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Lyon - France"
+  date_start = "2006-09-01"
+  date_end = "2007-11-01"
+  description = """
+  Researcher on Predit and ANR projects on activity-based analysis of mobility behavior .
+  """
+
+
+[[experience]]
+  title = "ATER"
+  company = """University Lyon 2 - Transport Economics Lab"""
+  company_url = ""
+  location = "Lyon - France"
+  date_start = "2004-09-01"
+  date_end = "2006-08-01"
+  description = """
+  
+  * Lectures in economics and Econometrics
+  """
+
 
 +++
