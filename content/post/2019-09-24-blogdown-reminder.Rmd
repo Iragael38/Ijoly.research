@@ -1,0 +1,101 @@
+---
+title: Blogdown Reminder
+author: I Joly
+date: '2019-09-24'
+slug: blogdown-reminder
+categories:
+  - R
+tags:
+  - Rmarkdown
+  - Blogdown
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-24T15:56:19+02:00'
+featured: no
+image_preview: 'bubbles.jpg'
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+
+
+
+
+# Workflow :
+
+0. Installer R et RStudio
+1. Créer un BlogDown avec RStudio
+2. Créer son GitHub
+3. Installer Git sur sa machine (certainement optionel, sauf si instal de l'add-on Git dans RStudio ?)
+4. Synchroniser Git et RStudio
+   + Commit
+   + Push
+5. Créer un compte Netlify ou relier Netlify au compte GitHub
+6. Depuis Netlify, 
+   + créer un nouveau site web, en ciblant un repo de GitHub
+   + Accéder aux option de GitHub pour autoriser l'accés aux repo depuis Netlify
+7. Laisser mouliner.
+
+Des fois ça marche... d'autres moins
+
+  
+## REste à voir 
+
+1. comment changer le thème hugo 'on live'
+2. Comment utiliser la clé de connexion ssh entre Rstudio et GitHub
+
+
+
+# Synchronising with GitHub
+
+*R packages* Git and GitHub:
+
+http://r-pkgs.had.co.nz/git.html#git-init
+
+# Top Tuto
+*Excellent blog de Peter Baumgartner* : 
+
+https://notes.peter-baumgartner.net/
+
+https://notes.peter-baumgartner.net/tutorial/blogdown-tutorial-part-4/
+
+
+# Références et Web Sites
+
++ https://github.com/Iragael38/
+
++ https://app.netlify.com/teams/ijoly-research/sites
+
+
+
+## Tuto
+
++ https://stateofther.github.io/finistR2017/blogdown.html
+
+https://lcolladotor.github.io/2018/03/07/blogdown-insert-image-addin/
+
+https://support.rbind.io/2017/06/16/academic-site-apreshill/
+
+https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/
+
+https://www.dsquintana.blog/free-website-in-r-easy/
+
+https://lmyint.github.io/post/hugo-academic-tips/
+
+## Sites & Blog appréciables
+
+http://lcolladotor.github.io/
+
+
+# Inserer une image dans un post
+
+Cela nécessite de copier l'image à charger dans un dossier présent dans static (éventuellement le dossier du post ou non)
+
+![Hey](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg)
+
+<img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' />
+
+![Iragaël Joly](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg){width=50%}

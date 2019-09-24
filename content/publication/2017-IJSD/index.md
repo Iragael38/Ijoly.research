@@ -9,12 +9,9 @@ date: "2018-01-01"
 doi: "10.1016/j.trd.2018.01.007"
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
-links:
-- name: Custom Link
-  url: http://example.org
 projects:
 - internal-project
 publication: "*Transportation Research Part D*"

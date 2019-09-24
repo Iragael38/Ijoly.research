@@ -1,0 +1,34 @@
+---
+title: 'First post : Celebrating an End'
+author: I. Joly
+date: '2019-09-23'
+slug: first-post-celebrating-an-end
+categories:
+  - IEM
+tags:
+  - IEM
+  - Teaching
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-23T17:29:03+02:00'
+featured: no
+thumbnail: "/post/GIEM/DSC_0412 - Copie.JPG"
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+And then the first post will be about an end : the end of another process [^1].
+[^1]: Schedule's hazard makes me write my very first post on the last time I organize the industrial conference at [IEM School](https:\\génie-industriel.com). 
+
+Since 2011, I have accepted the challenge to rebuilt the term period (september month). With help of a dozen of my colleagues, newly recruited students at IEM School are welcome and integrated as a prom during an atypical month of activities and lessons: the "séminaire de rentrée GIEM" (new term seminar: Industrial Engineering - Experiments and Methods). We define new activities around :
+
+1) **Experiments**: students are 'subjects' and actors instead of 'scholars'. They are facing  "simple" industrial problems, without the tools to solve them (market interactions, like auctions, flows operation problems, machining operation, etc.). They experience the need of tools and skills and knowledge from classic Industrial Engineers situation. Our objective is to rise their interest for the coming academic lessons, to lead them to a pro-active position, and to make them work together and know each others
+2) **Methods**: student are introduced to tools like litterature search, work team, project management, mind mapping, brain storming, oral communication, etc. in the objective to prepare a talk in the amphitheater in front of the 140 students prom, on an imposed topic (like industrialisation, risk management, logistic, big-data, etc.).
+
+Today, takes place one of the hot moments of the GIEM: the annual industrial conference for which I invite 5 experienced engineers from the industry.
+
+Thank you all for these great moments of students discovering the Industrial Engineering after the years.
