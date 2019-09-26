@@ -13,7 +13,8 @@ summary: ''
 authors: []
 lastmod: '2019-09-23T17:29:03+02:00'
 featured: no
-thumbnail: "/post/GIEM/DSC_0412 - Copie.JPG"
+thumbnail: "/post/2019-09-23-first-post-celebrating-an-end/featured.jpg"
+image_preview: 'featured.jpg'
 image:
   caption: ''
   focal_point: ''
@@ -21,8 +22,13 @@ image:
 projects: []
 ---
 
-And then the first post will be about an end : the end of another process [^1].
-[^1]: Schedule's hazard makes me write my very first post on the last time I organize the industrial conference at [IEM School](https:\\génie-industriel.com). 
+<center>
+![Hey](./featured.jpg){width=800px height=350px}
+</center> 
+
+![Hey](./featured.jpg)
+
+And then the first post will be about an end : the end of another process ^[Schedule's hazard makes me write my very first post on the last time I organize the industrial conference at [IEM School](https:\\génie-industriel.com). ]
 
 Since 2011, I have accepted the challenge to rebuilt the term period (september month). With help of a dozen of my colleagues, newly recruited students at IEM School are welcome and integrated as a prom during an atypical month of activities and lessons: the "séminaire de rentrée GIEM" (new term seminar: Industrial Engineering - Experiments and Methods). We define new activities around :
 
