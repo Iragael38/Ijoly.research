@@ -1,0 +1,20 @@
+---
+title: TestPost
+summary: Why you should use a netlify.toml file in your blogdown site
+authors:
+- alison
+date: '2019-02-20'
+image:
+  caption: '[Photo by Joanna Kosinska on Unsplash](https://unsplash.com/photos/Prfs32wh-o4)'
+  focal_point: 'center'
+categories: [blogdown, netlify, hugo]
+tags: [blogdown, netlify, hugo]
+---
+
+
+
+HAHHAH
+
+<center>
+![Hey](featured.jpg){width=800px height=350px}
+</center> 

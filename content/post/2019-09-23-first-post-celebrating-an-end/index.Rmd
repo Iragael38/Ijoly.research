@@ -1,32 +1,20 @@
 ---
-title: 'First post : Celebrating an End'
-author: I. Joly
-date: '2019-09-23'
-slug: first-post-celebrating-an-end
-categories:
-  - IEM
-tags:
-  - IEM
-  - Teaching
-subtitle: ''
-summary: ''
-authors: []
-lastmod: '2019-09-23T17:29:03+02:00'
-featured: no
-thumbnail: "/post/2019-09-23-first-post-celebrating-an-end/featured.jpg"
-image_preview: 'featured.jpg'
+title: 'Opening post'
+summary: Celebrating an End
+authors:
+- iragael
+date: '2019-09-26'
 image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-projects: []
+  caption: 'Photo by Iragael'
+  focal_point: 'center'
+categories: [IEM]
+tags: [IEM, Teaching]
 ---
 
 <center>
-![Hey](./featured.jpg){width=800px height=350px}
+![Hey](Amphi.jpg){width=800px height=350px}
 </center> 
 
-![Hey](./featured.jpg)
 
 And then the first post will be about an end : the end of another process ^[Schedule's hazard makes me write my very first post on the last time I organize the industrial conference at [IEM School](https:\\génie-industriel.com). ]
 
