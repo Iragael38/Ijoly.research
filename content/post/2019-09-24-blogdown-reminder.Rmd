@@ -89,6 +89,14 @@ https://lmyint.github.io/post/hugo-academic-tips/
 
 http://lcolladotor.github.io/
 
+https://rubenfcasal.github.io/post/getting-started/
+
+http://www.pik-potsdam.de/~pichler/blog/post/set-this-up/setting-up-this-site/
+
+
+# CAcher une section
+
+Dans `\content\home\` on trouve les fichiers de design des sections, dont l'option `active=true/false`
 
 # Inserer une image dans un post
 
