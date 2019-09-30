@@ -1,0 +1,28 @@
+---
+title: Journal
+author: I Joly
+date: '2019-09-27'
+slug: journal
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-27T17:55:51+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
++ Afficher la page résumer à partir du menu, mais pas sur la page d'accueil
++ Idem avec les publications
+  - revoir featured publis ?
+  - revoir le lien 'publications' tout seul après la liste
++ Ajouter le bouton 'cite' sur les publis
++ REvoir les liens vers réseaux soc
++ Transformer les Talks en cours ? 
++ Changer l'angle gauche: academic
++ Voir import des ref bib depuis hal ? Zotero ?

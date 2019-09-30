@@ -1,0 +1,38 @@
+---
+title: 'Econométrie des Variables Qualitatives 2019'
+author: I Joly
+date: '2019-09-27'
+slug: journal
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-27T17:55:51+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# Introduction
+
+Bienvenue sur la page présentant le cours **Econométrie des Variables Qualitatives 2019**, pour le M2 C2ES à la faculté de Sciences Economiques et de Gestion à l'UGA.
+
+## Le lien vers la plateforme de cours utilisée en 2019
+
+Espace Caseine du cours [Econométrie 3](https://caseine.org/course/view.php?id=346)
+
+## Quelques scripts & data utilisés en cours
+
+
+Script pour le calcul des oddratio:  [Oddratio.R](files/Eco3_Script_Data/oddsratio.R).
+
+## Références et url
+
+
+
+
+
