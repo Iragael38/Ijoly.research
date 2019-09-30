@@ -44,7 +44,7 @@ Thanks to <a href="https://twitter.com/dataandme">Mara Averick</a> for alerting 
 <p>Yes that is right- package version mismatches are the leading cause of build failure with Netlify. What does this look like for blogdown users? This means that you are running a version of Hugo locally that doesn’t match the version that Netlify is using to build your site. Most of the time, you are using a more recent version of Hugo than the one Netlify uses. This means that the files your theme relies on may be using newer Hugo functions that were introduced in later Hugo versions- functions that Netlify won’t be able to find working from an older Hugo version. You’ll get <em>all the build errors</em>.</p>
 <p>You can check your local Hugo version by running this code in your R console:</p>
 <pre class="r"><code>blogdown::hugo_version()</code></pre>
-<pre><code>## [1] &#39;0.55.6&#39;</code></pre>
+<pre><code>## [1] &#39;0.56.1&#39;</code></pre>
 <p>Now, we want Netlify to use this same version of Hugo when it builds your site. You can do this two ways:</p>
 <ol style="list-style-type: decimal">
 <li>Do this in your browser (👎)</li>
