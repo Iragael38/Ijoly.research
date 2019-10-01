@@ -11,14 +11,14 @@ output:
 ---
 
 
-##  Iragaël Joly
+#  Iragaël Joly
 
 
 <img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' />
 
 
 
-Assistant Professor  
+## Assistant Professor  
 at **Industrial Engineering & Management School** at Grenoble Institute of Technology  
 in **Economics, Econometrics and Statistics**  
 Researcher at **Grenoble Applied Economics Laboratory** (GAEL)
@@ -42,10 +42,10 @@ Skills {#skills}
 
 |          |              |
 |:----------------------|--------------:|
-|R & R Studio        |  ![skill5](/Resume/Resume_files/skill5.png){width=50%}  |
-|Sas                 |  ![SAS](/Resume/Resume_files/skill4.png){width=50%}   |
-|Stata               | ![SAS](/Resume/Resume_files/skill3.png){width=50%}  |
-|SQL QGIS & Python   | ![SAS](/Resume/Resume_files/skill3.png){width=50%}  |
+|R & R Studio        |  ![skill5](/resume/skill5.png){width=50%}  |
+|Sas                 |  ![SAS](/resume/skill4.png){width=50%}   |
+|Stata               | ![SAS](/resume/skill3.png){width=50%}  |
+|SQL QGIS & Python   | ![SAS](/resume/skill3.png){width=50%}  |
 
 
 

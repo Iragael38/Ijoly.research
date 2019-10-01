@@ -19,33 +19,33 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Grenoble-Inp"
-  organization_url = "https://www.coursera.org"
+  organization = "Conseil national des universités & Grenoble-Inp"
+  organization_url = ""
   title = "PEDR"
   url = ""
-  certificate_url = "https://www.coursera.org"
+  certificate_url = ""
   date_start = "2018-02-01"
   date_end = ""
-  description = """"Research prize"""
+  description = """Recipient of Ph.D. and Research Supervising Bonus (since 2019)"""
 
 
 [[item]]
-  organization = "CNU"
-  organization_url = "https://www.coursera.org"
-  title = "Qualification PU"
+  organization = "Conseil national des universités"
+  organization_url = ""
+  title = "Professor Qualification"
   url = ""
-  certificate_url = "https://www.coursera.org"
+  certificate_url = ""
   date_start = "2018-02-01"
   date_end = ""
   description = """"Qualification in section 5: Economics"""
 
 
 [[item]]
-  organization = "CNU"
-  organization_url = "https://www.coursera.org"
-  title = "Qualification MCF"
+  organization = "Conseil national des universités"
+  organization_url = ""
+  title = "Assistant Professor Qualification"
   url = ""
-  certificate_url = "https://www.coursera.org"
+  certificate_url = ""
   date_start = "2007-02-01"
   date_end = ""
   description = """Qualification in section 5: Economics and 24: Urban planning"""

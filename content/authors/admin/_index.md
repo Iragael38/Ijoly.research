@@ -25,9 +25,9 @@ interests:
 - Dynamic Document Edition
 name: Iragaël Joly
 organizations:
-- name: RStudio
-  url: https://www.rstudio.com/
-role: Data Scientist & Professional Educator
+- name: Industriel Engineering and Management School - Grenoble Inp
+  url: http://genie-industriel.grenoble-inp.fr//
+role: Assistant Professor, Economist & Data Scientist
 social:
 - icon: paper-plane
   icon_pack: fas

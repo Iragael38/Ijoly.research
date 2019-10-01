@@ -26,6 +26,7 @@ projects: []
 # Fonctions de base
 
 `blogdown::build_site()`
+
 # Workflow :
 
 0. Installer R et RStudio
