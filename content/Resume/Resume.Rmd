@@ -13,10 +13,7 @@ output:
 
 #  Iragaël Joly
 
-
-<img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' />
-
-
+<img alt = 'my new screenshot' width='200' src='/resume/avatar.jpg' />
 
 ## Assistant Professor  
 at **Industrial Engineering & Management School** at Grenoble Institute of Technology  
@@ -24,11 +21,6 @@ in **Economics, Econometrics and Statistics**
 Researcher at **Grenoble Applied Economics Laboratory** (GAEL)
 
 [Contact](/content/Contact)
-
-mail ??
-
-web
-
 
 
 Skills {#skills}

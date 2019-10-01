@@ -55,8 +55,12 @@ social:
   link: https://github.com/Iragael38
 - icon: cv
   icon_pack: ai
-  link: files/cv.pdf
+  link: file/cv.pdf
 superuser: true
 ---
+
+<center>
+![construction](avatar.jpg){width=400px} 
+</center> 
 
 Iragaël Joly is Assistant Professor at University Grenoble Alpes and researcher at Grenoble Applied Economics Lab. He is interested in econometrics of choice modeling, duration modeling and structural equation modeling applied to transportation and behavioral economics. More specifically, his works focused on transport choices (travel mode and travel time). He has published in several peer-reviewed academic journals including International Journal of Sustainable Development, European Review of Agricultural Economics, European Transport Research Review, International Journal of Transport Economics, Review of Agricultural and Environmental Studies, Transport Policy, Transportation Research Record
