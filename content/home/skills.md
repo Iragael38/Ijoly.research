@@ -17,7 +17,13 @@ subtitle = ""
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
-  name = "R"
+  name = "R & RStudio"
+  description = "90%"
+  
+[[feature]]
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "Econometrics"
   description = "90%"
   
 [[feature]]
@@ -29,7 +35,7 @@ subtitle = ""
 [[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
-  name = "Photography"
+  name = "Teaching"
   description = "10%"
 
 +++

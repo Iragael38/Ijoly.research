@@ -15,6 +15,7 @@ output:
 
 <img alt = 'my new screenshot' width='200' src='/resume/avatar.jpg' />
 
+
 ## Assistant Professor  
 at **Industrial Engineering & Management School** at Grenoble Institute of Technology  
 in **Economics, Econometrics and Statistics**  
