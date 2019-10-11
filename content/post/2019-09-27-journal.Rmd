@@ -63,3 +63,8 @@ I have been using many sources of inspiration. Here are those that I visit again
 *R packages* Git and GitHub:
 
 http://r-pkgs.had.co.nz/git.html#git-init
+
+# Some new sources to explore
+
+- http://varianceexplained.org/
+- https://floswald.github.io/
