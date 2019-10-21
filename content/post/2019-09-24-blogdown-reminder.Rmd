@@ -96,6 +96,8 @@ https://rubenfcasal.github.io/post/getting-started/
 
 http://www.pik-potsdam.de/~pichler/blog/post/set-this-up/setting-up-this-site/
 
+https://lmyint.github.io/post/hugo-academic-tips/
+
 
 # CAcher une section
 

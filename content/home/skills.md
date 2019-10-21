@@ -21,21 +21,28 @@ subtitle = ""
   description = "90%"
   
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
+  icon = "analytics"
+  icon_pack = "fas"
   name = "Econometrics"
   description = "90%"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "chart-scatter"
   icon_pack = "fas"
   name = "Statistics"
-  description = "100%"  
+  description = "90%"  
   
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
+  icon = "chalkboard-teacher"
+  icon_pack = "fad"
   name = "Teaching"
-  description = "10%"
+  description = "90%"
+
+[[feature]]
+  icon = "book-open"
+  icon_pack = "fas"
+  name = "Learning"
+  description = "90%"
+
 
 +++
