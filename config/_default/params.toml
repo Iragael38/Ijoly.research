@@ -28,7 +28,7 @@ font = "iragael"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "M"
+font_size = "S"
 
 ############################
 ## Basic Info
@@ -128,7 +128,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = "hal.jpg"
+sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = ""
