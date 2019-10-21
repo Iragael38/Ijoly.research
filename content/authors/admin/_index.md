@@ -32,24 +32,15 @@ social:
 - icon: paper-plane
   icon_pack: fas
   link: /contact
-- icon: impactstory
-  icon_pack: ai
-  link: https://impactstory.org/u/0000-0002-8082-1890
-- icon: orcid
-  icon_pack: ai
-  link: http://orcid.org/0000-0002-8082-1890
+- icon: leanpub
+  icon_pack: fab
+  link: https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=iragael+joly&CB_ref_biblio=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuOmbreVignettes.css
 - icon: linkedin-in
   icon_pack: fab
-  link: https://www.linkedin.com/in/alisonpresmaneshill/
-- icon: keybase
-  icon_pack: fab
-  link: https://keybase.io/alisonhill
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:ijoly.research@gmail.com".
+  link: https://www.linkedin.com/in/joly-iragael-b5274440
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=DdzqOB0AAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/Iragael38
@@ -58,7 +49,7 @@ social:
   link: file/cv.pdf
 - icon: researchgate
   icon_pack: ai
-  link: file/cv.pdf  
+  link: https://www.researchgate.net/profile/Iragael_Joly
   
 superuser: true
 ---
