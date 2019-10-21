@@ -21,20 +21,20 @@ subtitle = ""
   description = "90%"
   
 [[feature]]
-  icon = "analytics"
+  icon = "chart-line"
   icon_pack = "fas"
   name = "Econometrics"
   description = "90%"
   
 [[feature]]
-  icon = "chart-scatter"
+  icon = "chart-bar"
   icon_pack = "fas"
   name = "Statistics"
   description = "90%"  
   
 [[feature]]
   icon = "chalkboard-teacher"
-  icon_pack = "fad"
+  icon_pack = "fas"
   name = "Teaching"
   description = "90%"
 
@@ -43,6 +43,5 @@ subtitle = ""
   icon_pack = "fas"
   name = "Learning"
   description = "90%"
-
 
 +++
