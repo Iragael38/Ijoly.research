@@ -99,6 +99,16 @@ http://www.pik-potsdam.de/~pichler/blog/post/set-this-up/setting-up-this-site/
 https://lmyint.github.io/post/hugo-academic-tips/
 
 
+## Sites d'images
+
+### Libres
+
+https://unsplash.com/explore/searches
+
+### Web comics
+
+https://xkcd.com/
+
 # CAcher une section
 
 Dans `\content\home\` on trouve les fichiers de design des sections, dont l'option `active=true/false`

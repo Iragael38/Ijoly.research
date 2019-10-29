@@ -1,7 +1,8 @@
 ---
 authors:
 - admin
-role: Assistant Professor, Doctor in Economics
+name: Iragaël Joly
+role: Assistant Professor, Doctor in Economics & Data Scientist
 bio: My research interests include consumption and behavior econometric modelling applied to transport, food and innovative products. 
 interests:
 - Econometrics, Data Analysis, Artificial Intelligence & Machine Learning
@@ -19,15 +20,10 @@ education:
     institution: Toulouse School of Economics (TSE)
     year: 1999
 email: ""
-interests:
-- Econometrics, Data Analysis, Artificial Intelligence & Machine Learning
-- Discrete Choice Modeling, Survival Analysis, Structural Equation Modelling
-- Dynamic Document Edition
-name: Iragaël Joly
+
 organizations:
 - name: Industriel Engineering and Management School - Grenoble Inp
   url: http://genie-industriel.grenoble-inp.fr//
-role: Assistant Professor, Economist & Data Scientist
 social:
 - icon: paper-plane
   icon_pack: fas
@@ -54,6 +50,16 @@ social:
 superuser: true
 ---
 
-<img alt = 'my new screenshot' width='600' height='100'  src='/authors/admin/Construction.jpg' />
+<img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' />
+
+<figure class="kg-card kg-card-image kg-card-hascaption">
+    <img src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' alt="Photo by" class="kg-image" 
+    <figcaption>Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
+    </figcaption>
+</figure>
+
+
+
+
 
 Iragaël Joly is Doctor in Economics, Assistant Professor at University Grenoble Alpes and researcher at Grenoble Applied Economics Lab. He is interested in econometrics of choice modeling, duration modeling and structural equation modeling applied to transportation and behavioral economics. More specifically, his works focused on transport choices (travel mode and travel time). He has published in several peer-reviewed academic journals including International Journal of Sustainable Development, European Review of Agricultural Economics, European Transport Research Review, International Journal of Transport Economics, Review of Agricultural and Environmental Studies, Transport Policy, Transportation Research Record

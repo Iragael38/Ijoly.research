@@ -11,10 +11,6 @@ categories: [IEM]
 tags: [IEM, Teaching]
 ---
 
-<center>
-![Hey](Amphi.jpg){width=800px height=350px}
-</center> 
-
 
 And then the first post will be about an end : the end of another process ^[Schedule's hazard makes me write my very first post on the last time I organize the industrial conference at [IEM School](https:\\génie-industriel.com). ]
 
