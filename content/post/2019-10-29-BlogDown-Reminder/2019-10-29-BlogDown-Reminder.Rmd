@@ -35,7 +35,7 @@ Cette note est écrite pour répondre à ce besoin ressenti.
 
 ## A gauche:  
 Les éléments de gauche sont modifiés dans : `content\authors\admin\_index.md`.
-Le YALM, définit plusieurs sections: auteur, rôle, organisation et les liens des réseaux sociaux qui apparaissent à gauche
+Le YAML, définit plusieurs sections: auteur, rôle, organisation et les liens des réseaux sociaux qui apparaissent à gauche
 
 ### La description de l'auteur
 
@@ -43,8 +43,8 @@ La section `authors:` définie plusieurs champs :
 
 - Nom et prénom:  `name:`
 - Rôle: `role:`
-- L'organisation:  dans le YALM. En section `organizations`. On précise le `name:` et l' `url:`
-- Les icônes de liens (LinkedIn, ResearchGate, etc.): `content\authors\admin\_index.md` : dans le YALM. En section `social`, on précise l'icône (à la fois le nom de l'icône dans le paquet d'où il est [téléchargé](https://fontawesome.com/) ) et le lien interne (une autre page du blog - cv ou résumé ou contact) ou externe (une url)
+- L'organisation:  dans le YAML. En section `organizations`. On précise le `name:` et l' `url:`
+- Les icônes de liens (LinkedIn, ResearchGate, etc.): `content\authors\admin\_index.md` : dans le YAML. En section `social`, on précise l'icône (à la fois le nom de l'icône dans le paquet d'où il est [téléchargé](https://fontawesome.com/) ) et le lien interne (une autre page du blog - cv ou résumé ou contact) ou externe (une url)
 
 ```{ }
 authors:
@@ -73,8 +73,8 @@ social:
 Deux fichiers décrivent cette partie
 
 - Le titre: est dans  `content/home/about.md`
-- l'image: `content\authors\admin\_index.md` en dehors du / après le YALM
-- le petit texte: `content\authors\admin\_index.md`  en dehors du /après le YALM
+- l'image: `content\authors\admin\_index.md` en dehors du / après le YAML
+- le petit texte: `content\authors\admin\_index.md`  en dehors du /après le YAML
 
 ## Les listes automatiques :
 
