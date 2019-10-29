@@ -1,0 +1,207 @@
+---
+title: A Blogdown Reminder
+author: I Joly
+date: '2019-10-29'
+slug: blogdown-reminder
+categories:
+  - R
+tags:
+  - Rmarkdown
+  - Blogdown
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-24T15:56:19+02:00'
+featured: no
+image_preview: 'bubbles.jpg'
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+
+
+# Où est quoi ?
+
+Ce premier essai de blogdown m'a paru être un jeu de piste. Pour pouvoir podifier une petite partie, un bout de texte, etc. il faut savoir où cela se calibre. 
+
+Cette note est écrite pour répondre à ce besoin ressenti.
+
+<figure class="kg-card kg-card-image kg-card-hascaption">
+    <img src='/content/post/2019-10-29-BlogDown-Reminder/Tuto1.png' alt="Tuto1" class="kg-image" 
+    <figcaption>Screenshot by IJ     </figcaption>
+</figure>
+
+## A gauche:  
+Les éléments de gauche sont modifiés dans : `content\authors\admin\_index.md`.
+Le YALM, définit plusieurs sections: auteur, rôle, organisation et les liens des réseaux sociaux qui apparaissent à gauche
+
+### La description de l'auteur
+
+La section `authors:` définie plusieurs champs :
+
+- Nom et prénom:  `name:`
+- Rôle: `role:`
+- L'organisation:  dans le YALM. En section `organizations`. On précise le `name:` et l' `url:`
+- Les icônes de liens (LinkedIn, ResearchGate, etc.): `content\authors\admin\_index.md` : dans le YALM. En section `social`, on précise l'icône (à la fois le nom de l'icône dans le paquet d'où il est [téléchargé](https://fontawesome.com/) ) et le lien interne (une autre page du blog - cv ou résumé ou contact) ou externe (une url)
+
+```{ }
+authors:
+name: MySelf
+role: My role
+bio: My research interests include...
+organizations:
+- name: The best Institution ever 
+  url: http://genie-industriel.grenoble-inp.fr//
+social:
+- icon: paper-plane
+  icon_pack: fas
+  link: /contact
+```
+
+###  Remarques
+
+- La bio: `bio:` : La bio apparaît en bas de page des diffétentes pages du blog: des posts, des projets, le résumé, etc.
+- Attention, l'indentation est sensible ici
+
+
+
+
+## A droite
+
+Deux fichiers décrivent cette partie
+
+- Le titre: est dans  `content/home/about.md`
+- l'image: `content\authors\admin\_index.md` en dehors du / après le YALM
+- le petit texte: `content\authors\admin\_index.md`  en dehors du /après le YALM
+
+## Les listes automatiques :
+
+- *Interests*: `content\authors\admin\_index.md`:  En section `interests`, on décrit une liste à points d'intérêts
+- *Education*: `content\authors\admin\_index.md`:  En section `education`, on décrit un ensemble de `courses`. Chaque `course` est décrit par son nom `course`, son `institution` et une annèe `year`
+
+```{ }
+interests:
+- I 
+- and myself
+education:
+  courses:
+  - course:  Economics
+    institution:  University
+    year: 2017
+```
+    
+# Fonctions de base
+
+`blogdown::build_site()`
+
+# Workflow :
+
+0. Installer R et RStudio
+1. Créer un BlogDown avec RStudio
+2. Créer son GitHub
+3. Installer Git sur sa machine (certainement optionel, sauf si instal de l'add-on Git dans RStudio ?)
+4. Synchroniser Git et RStudio
+   + Commit
+   + Push
+5. Créer un compte Netlify ou relier Netlify au compte GitHub
+6. Depuis Netlify, 
+   + créer un nouveau site web, en ciblant un repo de GitHub
+   + Accéder aux option de GitHub pour autoriser l'accés aux repo depuis Netlify
+7. Laisser mouliner.
+
+Des fois ça marche... d'autres moins
+
+  
+## REste à voir 
+
+1. comment changer le thème hugo 'on live'
+2. Comment utiliser la clé de connexion ssh entre Rstudio et GitHub
+
+
+
+# Synchronising with GitHub
+
+*R packages* Git and GitHub:
+
+http://r-pkgs.had.co.nz/git.html#git-init
+
+# Top Tuto
+*Excellent blog de Peter Baumgartner* : 
+
+https://notes.peter-baumgartner.net/
+
+https://notes.peter-baumgartner.net/tutorial/blogdown-tutorial-part-4/
+
+
+# Références et Web Sites
+
++ https://github.com/Iragael38/
+
++ https://app.netlify.com/teams/ijoly-research/sites
+
+
+
+## Tuto
+
++ https://stateofther.github.io/finistR2017/blogdown.html
+
+https://lcolladotor.github.io/2018/03/07/blogdown-insert-image-addin/
+
+https://support.rbind.io/2017/06/16/academic-site-apreshill/
+
+https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/
+
+https://www.dsquintana.blog/free-website-in-r-easy/
+
+https://lmyint.github.io/post/hugo-academic-tips/
+
+## Sites & Blog appréciables
+
+http://lcolladotor.github.io/
+
+https://rubenfcasal.github.io/post/getting-started/
+
+http://www.pik-potsdam.de/~pichler/blog/post/set-this-up/setting-up-this-site/
+
+https://lmyint.github.io/post/hugo-academic-tips/
+
+
+## Sites d'images
+
+### Libres
+
+https://unsplash.com/explore/searches
+
+### Web comics
+
+https://xkcd.com/
+
+# CAcher une section
+
+Dans `\content\home\` on trouve les fichiers de design des sections, dont l'option `active=true/false`
+
+# Inserer une image dans un post
+
+Cela nécessite de copier l'image à charger dans un dossier présent dans static (éventuellement le dossier du post ou non)
+
+![Hey](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg)
+
+<img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' />
+
+<img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' />
+
+
+![Iragaël Joly](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg){width=50%}
+
+<figure class="kg-card kg-card-image kg-card-hascaption">
+    <img src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' alt="Photo by" class="kg-image" 
+    <figcaption>Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
+    </figcaption>
+</figure>
+
+
+# Références
+
+- Xie, Yihui. 2017a. Blogdown: Create Blogs and Websites with R Markdown. https://github.com/rstudio/blogdown.

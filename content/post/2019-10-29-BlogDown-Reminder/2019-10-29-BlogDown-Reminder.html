@@ -1,7 +1,7 @@
 ---
-title: Blogdown Reminder
+title: A Blogdown Reminder
 author: I Joly
-date: '2019-09-24'
+date: '2019-10-29'
 slug: blogdown-reminder
 categories:
   - R
@@ -23,6 +23,74 @@ projects: []
 
 
 
+<div id="ou-est-quoi" class="section level1">
+<h1>Où est quoi ?</h1>
+<p>Ce premier essai de blogdown m’a paru être un jeu de piste. Pour pouvoir podifier une petite partie, un bout de texte, etc. il faut savoir où cela se calibre.</p>
+<p>Cette note est écrite pour répondre à ce besoin ressenti.</p>
+<figure class="kg-card kg-card-image kg-card-hascaption">
+&lt;img src=‘/content/post/2019-10-29-BlogDown-Reminder/Tuto1.png’ alt=“Tuto1” class=“kg-image”
+<figcaption>
+Screenshot by IJ
+</figcaption>
+</figure>
+<div id="a-gauche" class="section level2">
+<h2>A gauche:</h2>
+<p>Les éléments de gauche sont modifiés dans : <code>content\authors\admin\_index.md</code>.
+Le YALM, définit plusieurs sections: auteur, rôle, organisation et les liens des réseaux sociaux qui apparaissent à gauche</p>
+<div id="la-description-de-lauteur" class="section level3">
+<h3>La description de l’auteur</h3>
+<p>La section <code>authors:</code> définie plusieurs champs :</p>
+<ul>
+<li>Nom et prénom: <code>name:</code></li>
+<li>Rôle: <code>role:</code></li>
+<li>L’organisation: dans le YALM. En section <code>organizations</code>. On précise le <code>name:</code> et l’ <code>url:</code></li>
+<li>Les icônes de liens (LinkedIn, ResearchGate, etc.): <code>content\authors\admin\_index.md</code> : dans le YALM. En section <code>social</code>, on précise l’icône (à la fois le nom de l’icône dans le paquet d’où il est <a href="https://fontawesome.com/">téléchargé</a> ) et le lien interne (une autre page du blog - cv ou résumé ou contact) ou externe (une url)</li>
+</ul>
+<pre><code>authors:
+name: MySelf
+role: My role
+bio: My research interests include...
+organizations:
+- name: The best Institution ever 
+  url: http://genie-industriel.grenoble-inp.fr//
+social:
+- icon: paper-plane
+  icon_pack: fas
+  link: /contact</code></pre>
+</div>
+<div id="remarques" class="section level3">
+<h3>Remarques</h3>
+<ul>
+<li>La bio: <code>bio:</code> : La bio apparaît en bas de page des diffétentes pages du blog: des posts, des projets, le résumé, etc.</li>
+<li>Attention, l’indentation est sensible ici</li>
+</ul>
+</div>
+</div>
+<div id="a-droite" class="section level2">
+<h2>A droite</h2>
+<p>Deux fichiers décrivent cette partie</p>
+<ul>
+<li>Le titre: est dans <code>content/home/about.md</code></li>
+<li>l’image: <code>content\authors\admin\_index.md</code> en dehors du / après le YALM</li>
+<li>le petit texte: <code>content\authors\admin\_index.md</code> en dehors du /après le YALM</li>
+</ul>
+</div>
+<div id="les-listes-automatiques" class="section level2">
+<h2>Les listes automatiques :</h2>
+<ul>
+<li><em>Interests</em>: <code>content\authors\admin\_index.md</code>: En section <code>interests</code>, on décrit une liste à points d’intérêts</li>
+<li><em>Education</em>: <code>content\authors\admin\_index.md</code>: En section <code>education</code>, on décrit un ensemble de <code>courses</code>. Chaque <code>course</code> est décrit par son nom <code>course</code>, son <code>institution</code> et une annèe <code>year</code></li>
+</ul>
+<pre><code>interests:
+- I 
+- and myself
+education:
+  courses:
+  - course:  Economics
+    institution:  University
+    year: 2017</code></pre>
+</div>
+</div>
 <div id="fonctions-de-base" class="section level1">
 <h1>Fonctions de base</h1>
 <p><code>blogdown::build_site()</code></p>
@@ -115,8 +183,21 @@ projects: []
 <p class="caption">Hey</p>
 </div>
 <p><img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' /></p>
+<p><img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' /></p>
 <div class="figure">
 <img src="/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg" alt="Iragaël Joly" style="width:50.0%" />
 <p class="caption">Iragaël Joly</p>
 </div>
+<figure class="kg-card kg-card-image kg-card-hascaption">
+&lt;img src=‘/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg’ alt=“Photo by” class=“kg-image”
+<figcaption>
+Photo by Josue Isai Ramos Figueroa <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
+</figcaption>
+</figure>
+</div>
+<div id="references" class="section level1">
+<h1>Références</h1>
+<ul>
+<li>Xie, Yihui. 2017a. Blogdown: Create Blogs and Websites with R Markdown. <a href="https://github.com/rstudio/blogdown" class="uri">https://github.com/rstudio/blogdown</a>.</li>
+</ul>
 </div>

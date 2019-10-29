@@ -1,29 +1,14 @@
 ---
 authors:
-- admin
 name: Iragaël Joly
 role: Assistant Professor, Doctor in Economics & Data Scientist
 bio: My research interests include consumption and behavior econometric modelling applied to transport, food and innovative products. 
-interests:
-- Econometrics, Data Analysis, Artificial Intelligence & Machine Learning
-- Discrete Choice Modeling, Survival Analysis, Structural Equation Modelling
-- Dynamic Document Edition
-education:
-  courses:
-  - course: HDR in Economics
-    institution: Lyon University
-    year: 2017
-  - course: PhD in Economics
-    institution: Lyon University
-    year: 2005
-  - course: Master in Economics
-    institution: Toulouse School of Economics (TSE)
-    year: 1999
-email: ""
-
 organizations:
 - name: Industriel Engineering and Management School - Grenoble Inp
   url: http://genie-industriel.grenoble-inp.fr//
+
+
+email: ""
 social:
 - icon: paper-plane
   icon_pack: fas
@@ -46,11 +31,27 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Iragael_Joly
-  
+
+interests:
+- Econometrics, Data Analysis, Artificial Intelligence & Machine Learning
+- Discrete Choice Modeling, Survival Analysis, Structural Equation Modelling
+- Dynamic Document Edition
+
+education:
+  courses:
+  - course: HDR in Economics
+    institution: Lyon University
+    year: 2017
+  - course: PhD in Economics
+    institution: Lyon University
+    year: 2005
+  - course: Master in Economics
+    institution: Toulouse School of Economics (TSE)
+    year: 1999  
 superuser: true
 ---
 
-<img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' />
+
 
 <figure class="kg-card kg-card-image kg-card-hascaption">
     <img src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' alt="Photo by" class="kg-image" 
