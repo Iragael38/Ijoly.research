@@ -33,23 +33,36 @@ subtitle = ""
   description = "90%"  
 
 [[feature]]
-  icon = "book-open"
+  icon = "database"
   icon_pack = "fas"
-  name = "Data Sciences"
+  name = "Data Science"
   description = "90%"
   
 [[feature]]
-  icon = "book-open"
+  icon = "bus-alt"
   icon_pack = "fas"
-  name = "Behavioral Economics"
+  name = "Transport Economics"
   description = "80%"
 
 [[feature]]
-  icon = "book-open"
+  icon = "user-check"
   icon_pack = "fas"
   name = "Choice Modeling"
   description = "90%"
+
+[[feature]]
+  icon = "wrench"
+  icon_pack = "fas"
+  name = "SAS"
+  description = "80%"
   
+[[feature]]
+  icon = "screwdriver"
+  icon_pack = "fas"
+  name = "Stata"
+  description = "60%"
+
+
 [[feature]]
   icon = "chalkboard-teacher"
   icon_pack = "fas"

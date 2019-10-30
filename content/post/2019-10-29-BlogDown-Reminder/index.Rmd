@@ -133,6 +133,10 @@ La balise associée au bouton est le nom du fichier associé présent dans `cont
 
 ### Les skills
 
+Les icônes proviennent de
+
+- https://fontawesome.com/icons?d=gallery
+- https://jpswalsh.github.io/academicons/
 
 ### Les contacts et la map
 
@@ -314,6 +318,7 @@ Le fichier image est dans le dossier du post (une copie dans `static\img\` sembl
 <img alt = 'my new2 screenshot' width='600' height='200'  src='Tuto1.jpg' />
 
 ```
+
 
 ### Website icon
 
