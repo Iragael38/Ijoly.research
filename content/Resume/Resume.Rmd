@@ -11,7 +11,6 @@ output:
 ---
 
 
-#  Iragaël Joly
 
 <img alt = 'my new screenshot' width='200' src='/resume/avatar.jpg' />
 
@@ -41,8 +40,6 @@ Skills {#skills}
 |SQL QGIS & Python   | ![SAS](/resume/skill3.png){width=50%}  |
 
 
-
-### Economics, econometrics, teaching
 
 
 <!--::: POSITION   -->

@@ -52,14 +52,6 @@ superuser: true
 ---
 
 
+I am Doctor in Economics, Assistant Professor at [University Grenoble Alpes] (https://www.univ-grenoble-alpes.fr/) in [Industriel Engineering and Management School](http://genie-industriel.grenoble-inp.fr//) of [Grenoble Inp](http://www.grenoble-inp.fr/) and researcher at [Grenoble Applied Economics Lab](https://gael.univ-grenoble-alpes.fr/presentation). 
 
-<figure class="kg-card kg-card-image kg-card-hascaption">
-    <img src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' alt="Photo by" class="kg-image" 
-    <figcaption>Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
-    </figcaption>
-</figure>
-
-
-
-
-I am Doctor in Economics, Assistant Professor at University Grenoble Alpes and researcher at Grenoble Applied Economics Lab. My fields of interests are in econometrics of choice modeling, duration modeling and structural equation modeling applied to transportation and behavioral economics. More specifically, my works focused on transport choices (travel mode and travel time). I have published in several peer-reviewed academic journals including International Journal of Sustainable Development, European Review of Agricultural Economics, European Transport Research Review, International Journal of Transport Economics, Review of Agricultural and Environmental Studies, Transport Policy, Transportation Research Record
+My fields of interests are in econometrics of choice modeling, duration modeling and structural equation modeling applied to transportation and behavioral economics. More specifically, my works focused on transport choices (travel mode and travel time). I have published in several peer-reviewed academic journals including International Journal of Sustainable Development, European Review of Agricultural Economics, European Transport Research Review, International Journal of Transport Economics, Review of Agricultural and Environmental Studies, Transport Policy, Transportation Research Record

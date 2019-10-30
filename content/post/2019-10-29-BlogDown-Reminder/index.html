@@ -14,29 +14,20 @@ authors: []
 lastmod: '2019-09-24T15:56:19+02:00'
 featured: no
 image:
-  caption: 'Photo by Josue Isai Ramos Figueroa'
+  caption: Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
   focal_point: 'center'
+resource_files:
+  - ../static/
 projects: []
 ---
 
 
 
-<figure class="kg-card kg-card-image kg-card-hascaption">
-&lt;img src=‘josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg’ alt=“Photo by” class=“kg-image”
-<figcaption>
-Photo by Josue Isai Ramos Figueroa <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
-</figcaption>
-</figure>
 <div id="ou-est-quoi" class="section level1">
 <h1>Où est quoi ?</h1>
-<p>Ce premier essai de blogdown m’a paru être un jeu de piste. Pour pouvoir podifier une petite partie, un bout de texte, etc. il faut savoir où cela se calibre.</p>
+<p>Ce premier essai de blogdown m’a paru être un jeu de piste. Pour pouvoir modifier une petite partie, un bout de texte, etc. il faut savoir où cela se cache et comment ça se calibre.</p>
 <p>Cette note est écrite pour répondre à ce besoin ressenti.</p>
-<figure class="kg-card kg-card-image kg-card-hascaption">
-&lt;img src=‘/content/post/2019-10-29-BlogDown-Reminder/Tuto1.png’ alt=“Tuto1” class=“kg-image”
-<figcaption>
-Screenshot by IJ
-</figcaption>
-</figure>
+<p><img alt = 'my new2 screenshot' width='600' height='200'  src='Tuto1.jpg' /></p>
 <div id="a-gauche" class="section level2">
 <h2>A gauche:</h2>
 <p>Les éléments de gauche sont modifiés dans : <code>content\authors\admin\_index.md</code>.
@@ -119,6 +110,7 @@ subtitle = &quot;&quot;</code></pre>
 <p>Il se définit dans <code>config/_default/menus.toml</code>
 On définit une section par l’accroche <code>main</code> définissant <code>name</code> l’élément de menu, <code>url</code> indiquant le lien interne de la page ciblée et <code>weight</code> précisant le poids ou le rang dans l’ordre d’apparition du menu.
 La liste et l’ordre de éléments du menus peuvent être différents de ceux affichés sur la page principale.</p>
+<p>La balise associée au bouton est le nom du fichier associé présent dans <code>content/home</code>. Par exemple pour le bouton <code>Projects</code> du menu, on précise un <code>name="Projet"</code> et un <code>url = "#projects"</code> qui correspond au fichier <code>projects.md</code>.</p>
 <pre><code>[[main]]
     name = &quot;cv&quot;
     url = &quot;#cv&quot;
@@ -237,23 +229,54 @@ font_size = &quot;S&quot;</code></pre>
 </div>
 <div id="inserer-une-image-dans-un-post" class="section level1">
 <h1>Inserer une image dans un post</h1>
+<p>L’insertion d’image reste une opération délicate pour moi.</p>
+<p>J’énumère ci-dessous plusieurs méthodes. Toutes ne fonctionnent pas et je ne sais pas encore pourquoi…</p>
 <p>Cela nécessite de copier l’image à charger dans un dossier présent dans static (éventuellement le dossier du post ou non)</p>
+<p><code>![Hey](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg)</code></p>
 <div class="figure">
 <img src="/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg" alt="Hey" />
 <p class="caption">Hey</p>
 </div>
+<p><code>&lt;img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' /&gt;</code></p>
 <p><img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' /></p>
+<p><code>&lt;img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' /&gt;</code></p>
 <p><img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' /></p>
+<p><code>![Iragaël Joly](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg){width=50%}</code></p>
 <div class="figure">
 <img src="/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg" alt="Iragaël Joly" style="width:50.0%" />
 <p class="caption">Iragaël Joly</p>
 </div>
+<p>Insertion avec informations, captions, etc.</p>
+<pre><code>&lt;figure class=&quot;kg-card kg-card-image kg-card-hascaption&quot;&gt;
+    &lt;img src=&#39;/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg&#39; alt=&quot;Photo by&quot; class=&quot;kg-image&quot; 
+    &lt;figcaption&gt;Photo by Josue Isai Ramos Figueroa  &lt;a href=&quot;https://unsplash.com/photos/qvBYnMuNJ9A&quot;&gt;on Unsplash &lt;/a&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
 <figure class="kg-card kg-card-image kg-card-hascaption">
 &lt;img src=‘/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg’ alt=“Photo by” class=“kg-image”
 <figcaption>
 Photo by Josue Isai Ramos Figueroa <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
 </figcaption>
 </figure>
+<div id="inserer-une-image-dans-un-en-tete-de-post" class="section level3">
+<h3>Insérer une image dans un en-tête de post:</h3>
+<p>On précise les éléments: <code>caption</code> et <code>focal point</code>. Mais l’image doit être dans le dossier du post avec le nom <code>featured.jpg</code>.
+<em>Remarque</em>, le nom du fichier du post est <code>index.Rmd</code></p>
+<pre><code>image:
+  caption: Photo by Josue Isai Ramos Figueroa  &lt;a href=&quot;https://unsplash.com/photos/qvBYnMuNJ9A&quot;&gt;on Unsplash &lt;/a&gt;
+  focal_point: &#39;center&#39;</code></pre>
+</div>
+<div id="inserer-une-image-dans-le-coeur-dun-post" class="section level3">
+<h3>Insérer une image dans le coeur d’un post</h3>
+<p>On insère l’image par l’instruction suivante.
+Le fichier image est dans le dossier du post (une copie dans <code>static\img\</code> semble utile)</p>
+<pre><code>&lt;img alt = &#39;my new2 screenshot&#39; width=&#39;600&#39; height=&#39;200&#39;  src=&#39;Tuto1.jpg&#39; /&gt;
+</code></pre>
+</div>
+<div id="website-icon" class="section level3">
+<h3>Website icon</h3>
+<p>Save your main icon and mobile icon as square PNG images named <code>icon.png</code> and apple-touch-icon.png, respectively. Place them in your root <code>static/img/ folder</code>.</p>
+</div>
 </div>
 <div id="references" class="section level1">
 <h1>Références</h1>

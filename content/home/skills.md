@@ -31,6 +31,24 @@ subtitle = ""
   icon_pack = "fas"
   name = "Statistics"
   description = "90%"  
+
+[[feature]]
+  icon = "book-open"
+  icon_pack = "fas"
+  name = "Data Sciences"
+  description = "90%"
+  
+[[feature]]
+  icon = "book-open"
+  icon_pack = "fas"
+  name = "Behavioral Economics"
+  description = "80%"
+
+[[feature]]
+  icon = "book-open"
+  icon_pack = "fas"
+  name = "Choice Modeling"
+  description = "90%"
   
 [[feature]]
   icon = "chalkboard-teacher"
@@ -43,5 +61,8 @@ subtitle = ""
   icon_pack = "fas"
   name = "Learning"
   description = "90%"
+
+
+  
 
 +++

@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -26,27 +26,53 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   
-  * Research:  
-  
-    - Consumption and Behavioral Economics 
-    - Transport Economics
-  * Teaching: Economics and Data Analysis
-  * Admin: 
+  **Research**:  Consumption and Behavioral Economics, Transport Economics  
+  **Teaching**: Economics and Data Analysis  
+  **Admin**: member of the executive team of IEM School (since 2018)
   """
-
 
 [[experience]]
-  title = "Researcher"
-  company = """University Lyon 2 - Transport Economics Lab"""
-  company_url = ""
-  location = "Lyon - France"
-  date_start = "2006-09-01"
-  date_end = "2007-11-01"
-  description = """
-  Researcher on Predit and ANR projects on activity-based analysis of mobility behavior .
+title = "HDR in Economics"
+company = "University of Lyon"
+company_url = ""
+location = "Lyon - Fr"
+date_start = "2017-07-01"
+date_end = "2017-08-01"
+description = """
+  
+  Accreditation to Supervise Research and PhD Students  
+  **Modelling behavior of derived consumption: the case of travel time**  
+  *Jury* : Thierry Blayac, Michel Bierlaire , Sylvie Charlot, Hubert Jayet et Michel Simioni
   """
 
+ 
+[[experience]]
+title = "Graduate Research Assistant / Lecturer"
+company = """Transport Economics Laboratory"""
+company_url = ""
+location = "Lyon - Fr"
+date_start = "2005-12-01"
+date_end = "2008-06-01"
+description = """
+  Researcher on Predit and ANR projects on activity-based analysis of mobility behavior .
+  
+  - Mobility and Activity-Based Analysis
+  - Travel survey of 15 European cities
+"""
 
+[[experience]]
+title = "PhD Student & Lecturer"
+company = """University of Lyon - Transport Economics Laboratory"""
+company_url = ""
+location = "Lyon - Fr"
+date_start = "2001-11-01"
+date_end = "2005-12-01"
+description = """
+  PhD: *Allocation of time to travel - International study of travel time budget and duration model* under supervision of  Alain Bonnafous
+  *Teaching*:  Econometrics (Introduction ; Panel date ; Discret choice model ; Survival analysis) & Industrial Economics
+""" 
+ 
+  
 [[experience]]
   title = "ATER"
   company = """University Lyon 2 - Transport Economics Lab"""
@@ -56,7 +82,7 @@ date_format = "Jan 2006"
   date_end = "2006-08-01"
   description = """
   
-  * Lectures in economics and Econometrics
+  Lectures in economics and Econometrics
   """
 
 

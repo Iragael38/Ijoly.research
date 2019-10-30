@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/georgecushen
 slides: example
-summary: "Smart Analytics for BigData with B. Agard (LID)[lid.com]   - Commun Course at Grenoble Génie Industriel and Montréal Ecole Polytechnique de Montréal."
+summary: "Smart Analytics for BigData with B. Agard (LID)[https://www.polymtl.ca/lid/]   - Commun Course at Grenoble Génie Industriel and Montréal Ecole Polytechnique de Montréal."
 tags:
 - Machine Learning, IA
 title: Smart Analytics for BigData

@@ -3,7 +3,7 @@
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 60  # Order that this section will appear.
 
 title = "Accomplish&shy;ments"
 subtitle = ""
@@ -19,9 +19,9 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Conseil national des universités & Grenoble-Inp"
+  organization = "PEDR - Research Bonus"
   organization_url = ""
-  title = "PEDR"
+  title = "Conseil national des universités & Grenoble-Inp"
   url = ""
   certificate_url = ""
   date_start = "2018-02-01"
@@ -30,20 +30,20 @@ date_format = "Jan 2006"
 
 
 [[item]]
-  organization = "Conseil national des universités"
+  organization = "Professor Qualification"
   organization_url = ""
-  title = "Professor Qualification"
+  title = "Conseil national des universités"
   url = ""
   certificate_url = ""
   date_start = "2018-02-01"
   date_end = ""
-  description = """"Qualification in section 5: Economics"""
+  description = """Qualification in section 5: Economics"""
 
 
 [[item]]
-  organization = "Conseil national des universités"
+  organization = "Assistant Professor Qualification"
   organization_url = ""
-  title = "Assistant Professor Qualification"
+  title = "Conseil national des universités"
   url = ""
   certificate_url = ""
   date_start = "2007-02-01"

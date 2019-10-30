@@ -1,14 +1,14 @@
 ---
-title: 'Econométrie des Variables Qualitatives 2019'
-author: I Joly
-date: 'oct-janv. 2019'
+title: 'Econometrics of Qualitative Variables'
+author: admin
+date: '2019-10-01'
 slug: journal
 categories: []
 tags: []
-subtitle: ''
+subtitle: 'Econométrie des Variables Qualitatives 2019'
 summary: ''
-authors: []
-lastmod: '2019-09-27T17:55:51+02:00'
+authors: [IJ]
+lastmod: '2019-10-01'
 featured: no
 image:
   caption: ''
@@ -32,7 +32,6 @@ Script pour le calcul des oddratio:  [Oddratio.R](files/Eco3_Script_Data/oddsrat
 
 ## Références et url
 
-
-
-
+- K. Train, (2009), *Discrete Choice Methods with Simulation*, Cambridge University Press, https://eml.berkeley.edu/books/choice2.html
+- Hensher, Rose, Greene, (2015), *Applied Choice Analysis*, Cambridge University Press. 
 

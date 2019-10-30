@@ -14,26 +14,22 @@ authors: []
 lastmod: '2019-09-24T15:56:19+02:00'
 featured: no
 image:
-  caption: 'Photo by Josue Isai Ramos Figueroa'
+  caption: Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
   focal_point: 'center'
+resource_files:
+  - ../static/
 projects: []
 ---
 
-<figure class="kg-card kg-card-image kg-card-hascaption">
-    <img src='josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' alt="Photo by" class="kg-image" 
-    <figcaption>Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
-    </figcaption>
-</figure>
+
 # Où est quoi ?
 
-Ce premier essai de blogdown m'a paru être un jeu de piste. Pour pouvoir podifier une petite partie, un bout de texte, etc. il faut savoir où cela se calibre. 
+Ce premier essai de blogdown m'a paru être un jeu de piste. Pour pouvoir modifier une petite partie, un bout de texte, etc. il faut savoir où cela se cache et comment ça se calibre. 
 
 Cette note est écrite pour répondre à ce besoin ressenti.
 
-<figure class="kg-card kg-card-image kg-card-hascaption">
-    <img src='/content/post/2019-10-29-BlogDown-Reminder/Tuto1.png' alt="Tuto1" class="kg-image" 
-    <figcaption>Screenshot by IJ     </figcaption>
-</figure>
+<img alt = 'my new2 screenshot' width='600' height='200'  src='Tuto1.jpg' />
+
 
 ## A gauche:  
 Les éléments de gauche sont modifiés dans : `content\authors\admin\_index.md`.
@@ -124,6 +120,8 @@ subtitle = ""
 Il se définit dans `config/_default/menus.toml`
 On définit une section par l'accroche `main` définissant `name` l'élément de menu, `url` indiquant le lien interne de la page ciblée et `weight` précisant le poids ou le rang dans l'ordre d'apparition du menu. 
 La liste et l'ordre de éléments du menus peuvent être différents de ceux affichés sur la page principale.
+
+La balise associée au bouton est le nom du fichier associé présent dans `content/home`. Par exemple pour le bouton `Projects` du menu, on précise un `name="Projet"` et un `url = "#projects"` qui correspond au fichier `projects.md`.
 
 ```{ }
 [[main]]
@@ -255,16 +253,39 @@ Dans `\content\home\` on trouve les fichiers de design des sections, dont l'opti
 
 # Inserer une image dans un post
 
+L'insertion d'image reste une opération délicate pour moi.
+
+J'énumère ci-dessous plusieurs méthodes. Toutes ne fonctionnent pas et je ne sais pas encore pourquoi...
+
 Cela nécessite de copier l'image à charger dans un dossier présent dans static (éventuellement le dossier du post ou non)
+
+`![Hey](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg)`
 
 ![Hey](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg)
 
+`<img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' />`
+
 <img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' />
+
+`<img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' />`
 
 <img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' />
 
 
+`![Iragaël Joly](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg){width=50%}`
+
 ![Iragaël Joly](/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg){width=50%}
+
+
+Insertion avec informations, captions, etc.
+
+```{}
+<figure class="kg-card kg-card-image kg-card-hascaption">
+    <img src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' alt="Photo by" class="kg-image" 
+    <figcaption>Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
+    </figcaption>
+</figure>
+```
 
 <figure class="kg-card kg-card-image kg-card-hascaption">
     <img src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' alt="Photo by" class="kg-image" 
@@ -272,6 +293,31 @@ Cela nécessite de copier l'image à charger dans un dossier présent dans stati
     </figcaption>
 </figure>
 
+
+### Insérer une image dans un en-tête de post:
+
+On précise les éléments: `caption` et `focal point`. Mais l'image doit être dans le dossier du post avec le nom  `featured.jpg`.
+*Remarque*, le nom du fichier du post est `index.Rmd`
+
+```{}
+image:
+  caption: Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
+  focal_point: 'center'
+```
+
+### Insérer une image dans le coeur d'un post
+
+On insère l'image par l'instruction suivante.
+Le fichier image est dans le dossier du post (une copie dans `static\img\` semble utile)
+
+```{}
+<img alt = 'my new2 screenshot' width='600' height='200'  src='Tuto1.jpg' />
+
+```
+
+### Website icon
+
+Save your main icon and mobile icon as square PNG images named `icon.png` and apple-touch-icon.png, respectively. Place them in your root `static/img/ folder`.
 
 # Références
 
