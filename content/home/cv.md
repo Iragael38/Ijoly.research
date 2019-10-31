@@ -15,4 +15,4 @@ weight = 70
 
 +++
 
-Find my CV in PDF [here](files/cv.pdf).
+Find my CV in PDF [here](file/cv.pdf).
