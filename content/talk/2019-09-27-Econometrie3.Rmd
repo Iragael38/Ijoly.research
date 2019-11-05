@@ -35,3 +35,26 @@ Script pour le calcul des oddratio:  [Oddratio.R](files/Eco3_Script_Data/oddsrat
 - K. Train, (2009), *Discrete Choice Methods with Simulation*, Cambridge University Press, https://eml.berkeley.edu/books/choice2.html
 - Hensher, Rose, Greene, (2015), *Applied Choice Analysis*, Cambridge University Press. 
 
+
+***
+
+# Syllabus
+
+### Intitulé du cours : Econométrie de variables qualitatives (Econométrie 3)
+### Public : Etudiants du M2 C2ES (Chargé d'Etudes Economiques et Statistiques), UGA
+### Equipe enseignante : Iragaël Joly
+### Nombre d’étudiants par an : 10 à 15
+### Nombre d’heures : 24h /élève
+### Période : 2016-auj
+### Langue de l’enseignement : français
+
+## Description : 
+Ce cours introduit les outils statistiques et économétriques spécifiques aux traitements des variables catégorielles. Il vise à présenter des méthodes mobilisables en entreprise, par exemple les indicateurs de type odd-ratio et les tests, la régression logistique classique. Il amène les étudiants du M2 à aborder les outils utilisées en recherche dans le cadre de modèle de choix discret en apportant les modèles de type logit multinomial et ses extensions : modèle nested logit, logit à classe latente, mixed logit.
+
+## Objectifs du cours :
+L’objectif du cours est de présenter et appliquer les méthodes économétriques de modélisations des variables qualitatives et des choix discrets. Les premières sont adaptées pour modéliser des outcomes qualitatifs ordonnés ou non (par ex : modèles logit et probit). Les modèles de choix discrets sont utilisés pour l’étude désagrégée des comportements individuels de consommation et l’étude de la demande. Ces méthodes permettent par exemple d’estimer et de prédire les parts de marché entre différents produits, les consentements à payer pour un produit ou pour un attribut spécifique. Ce cours reviendra sur les notions de surplus du consommateur et sur les solutions pour les estimer. 
+
+Une attention particulière est donnée à l’interprétation des résultats et la méthode de construction du modèle. Notamment, la réalisation d’un projet tutoré sur une base de données issue de mes recherches conduit les étudiants à manager leur analyse d’une question de mobilité urbaine en la structurant sur la littérature pertinente et à construire un modèle de façon critique et argumentée.
+
+## Approche pédagogique : 
+Ce cours est un cours appliqué s’appuyant sur les logiciels R et RStudio. Une volonté et une attente explicite du cours est la production d’un travail reproductible et transparent à l’aide de RStudio. Les différentes techniques d’analyse sont présentées et mises en application au-travers d’exercices et au-travers d’un projet de semestre faisant l’objet d’une soutenance de préparation à l’écriture d’un rapport.

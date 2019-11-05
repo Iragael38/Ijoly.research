@@ -1,0 +1,276 @@
+Année;Cours;Anglais;Nveau.nom;Etablissement;Discipline;nbH.prev.;nbH.prev.Etd;nbH.eff;nbH.eff.etd;Type.H
+2008;FEGI;0;FEGI;GI;Economie;;;;42;
+2008;Proba et Stat;0;Stat1A;GI;Statistique;;;;30;
+2008;GIP;0;GIP;GI;GI;;;;32;
+2008;EDT;0;EDT;GI;Stage;;;;8;
+2008;IA;0;IA;GI;Stage;;;;9;
+2008;PFE;0;PFE tuteur;GI;Stage;;;;3;
+2008;Economie de la concurrence et de la firme;0;Eco-IAE;IAE;Economie;;;;36;
+2008;Séminaire ESE;1;Séminaire ESE;upmf-ese;Economie;;;;6;
+2008;Suivi master pro;0;PFE tuteur;upmf-ese;Stage;;;;3;
+2008;Jeux d'entreprise;0;winfirm;CEI;Gestion;;;;40;
+2008;P3;0;P3;CEI;GI;;;;10;
+2008;Economie;0;Economie-CUFA;CUEFA;Economie;;;;96;
+2008;Formation Statistiques;0;Formation Stat;UGA-dsi;Statistique;;;;16;
+2009;Imt Septembre;0;PFE;IMT;Stage;;;;4;
+2009;Gestion D'Entreprise Et Com,;0;winfirm;Ensimag;Gestion;;;;36;
+2009;Projet Professionnel Personnel;0;P3;Ensimag;GI;;;;15;
+2009;Principes Et Methodes Stat.;0;PMS;Ensimag;Statistique;;;;45;
+2009;Principes Et Methodes Stat.;0;PMS;Ensimag;Statistique;;;;2,25;
+2009;Ouverture Aux Dimensions De L Entreprise;0;winfirm;Phelma;Gestion;;;;20;
+2009;Ouverture Aux Dimensions De L Entreprise;0;winfirm;Phelma;Gestion;;;;20;
+2009;Statistiques Inférentielles;0;Stat1A;GI;Statistique;;;;23,5;
+2009;Projet Génie industriel d'un produit;0;GIP;GI;GI;;;;32;
+2009;Fondement d'économie pour le génie industriel;0;FEGI;GI;Economie;;;;42;
+2009;Fondement d'économie pour le génie industriel;0;FEGI;GI;Economie;;;;4,5;
+2009;Etude de terrain;0;EDT;GI;Stage;;;;8;
+2009;Pfe Encadrement;0;PFE tuteur;GI;Stage;;;;9;
+2009;Stage Ingénieur Adjoint;0;IA;GI;Stage;;;;12;
+2009;Advanced economics in industrial engineering;1;AdvEco;GI;Economie;;;;17;
+2009;Advanced economics in industrial engineering;1;AdvEco;GI;Economie;;;;10,5;
+2009;Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;;;;9,38;
+2009;Théorie Des Jeux Et Décision;0;AdvEco;GI;Economie;;;;11,3;
+2009;Pfe Encadrement;0;PFE tuteur;GI;Stage;;;;3;
+2009;Stage Ingénieur Adjoint;0;IA;GI;Stage;;;;3;
+2009;Séminaire ESE;1;Séminaire ESE;upmf-ese;Economie;;;;6;
+2010;Statistique Décision;0;StatIMT;IMT;Statistique;8;8;8;8;TD
+2010;Statistique Décision;0;StatIMT;IMT;Statistique;4;8;4;8;CFC2
+2010;Probabilités statistiques;0;;GI;Statistique;16;16;16;16;TD
+2010;Communication & Initiation à la Gestion de l'entreprise;0;winfirm;CEI;Gestion;20;20;20;20;TD
+2010;PRINCIPES ET METHODES STAT.;0;PMS;Ensimag;Statistique;2,25;2,25;2,25;2,25;TD
+2010;Principes Et Méthodes Statistiques;0;PMS;Ensimag;Statistique;36;45;36;45;CTD
+2010;Ouverture Aux Dimensions De L Entreprise;0;winfirm;CEI;Gestion;20;20;20;20;TD
+2010;Ouverture Aux Dimensions De L Entreprise;0;winfirm;CEI;Gestion;20;20;20;20;TD
+2010;Entreprises et marchés;0;GIEM;GI;GI;12,5;12,5;12,5;12,5;TD
+2010;Probabilités;0;Prob1A;GI;Statistique;18,5;18,5;17;17;TD
+2010;Statistiques inférentielles;0;Stat1A;GI;Statistique;17,5;17,5;17,5;17,5;TD
+2010;Projet Génie industriel d'un produit;0;GIP;GI;GI;32;32;32;32;TD
+2010;Fondement d'économie pour le génie industriel;0;FEGI;GI;Economie;37,5;37,5;37,5;37,5;TD
+2010;Advanced economics in industrial engineering;1;AdvEco;GI;Economie;33;43,89;33;43,89;CTD2
+2010;Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;12,5;12,5;12,5;12,5;TD
+2010;Pfe Encadrement;0;PFE tuteur;GI;Stage;12;12;12;12;TD
+2010;Pfe Présidence;0;PFE Pres;GI;Stage;6;6;6;6;TD
+2010;Stage Ingénieur Adjoint;0;IA;GI;Stage;21;21;21;21;TD
+2011;Imt Septembre;0;PFE;IMT;Stage;4;4;4;4;TD
+2011;Gestion D'Entreprise Et Com,;0;winfirm;CEI;Gestion;36;36;36;36;TD
+2011;Projet Professionnel Personnel;0;winfirm;CEI;Gestion;15;15;15;15;TD
+2011;Principes Et Methodes Stat.;0;PMS;PMS;Statistique;36;45;36;45;CTD
+2011;Principes Et Methodes Stat.;0;PMS;PMS;Statistique;2,25;2,25;2,25;2,25;TD
+2011;Ouverture Aux Dimensions De L Entreprise;0;winfirm;CEI;Gestion;20;20;20;20;TD
+2011;Ouverture Aux Dimensions De L Entreprise;0;winfirm;CEI;Gestion;20;20;20;20;TD
+2011;Statistiques Inférentielles;0;Stat1A;GI;Statistique;23,5;23,5;23,5;23,5;TD
+2011;Projet Génie industriel d'un produit;0;GIP;GI;GI;32;32;32;32;TD
+2011;Fondement d'économie pour le génie industriel;0;FEGI;GI;Economie;42;42;42;42;TD
+2011;Fondement d'économie pour le génie industriel;0;FEGI;GI;Economie;3;4,5;3;4,5;CM
+2011;Etude de terrain;0;EDT;GI;Stage;8;8;8;8;TD
+2011;Pfe Encadrement;0;PFE tuteur;GI;Stage;9;9;9;9;TD
+2011;Stage Ingénieur Adjoint;0;IA;GI;Stage;6;6;12;12;TD
+2011;Advanced economics in industrial engineering;1;AdvEco;GI;Economie;17;17;17;17;TD
+2011;Advanced economics in industrial engineering;1;AdvEco;GI;Economie;7;10,5;7;10,5;CM
+2011;Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;7,5;9,38;7,5;9,38;CTD
+2011;Théorie Des Jeux Et Décision;0;AdvEco;GI;Economie;11,3;11,3;11,3;11,3;TD
+2011;Pfe Encadrement;0;PFE tuteur;GI;Stage;3;3;3;3;TD
+2011;Stage Ingénieur Adjoint;0;IA;GI;Stage;0;0;3;3;TD
+2012;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;CPP;Economie;12;12;14;14;TD
+2012;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;CPP;Economie;8;12;8;12;CM
+2012;Statistiques;0;StatIMT;IMT;Statistique;8;16;19;38;CFC2
+2012;Principes Et Méthodes Statistiques (Soutenances);0;PMS;Ensimag;Statistique;3;3;3;3;TPTD
+2012;Principes et méthodes statistiques;0;PMS;Ensimag;Statistique;36;45;36;45;CTD
+2012;Entreprises et marchés;0;GIEM;GI;GI;13,5;13,5;13,5;13,5;TD
+2012;Statistiques inférentielles;0;Stat1A;GI;Statistique;37;37;37;37;TD
+2012;Projet Génie industriel d'un produit;0;GIP;GI;GI;32;32;32;32;TD
+2012;Fondement d'économie pour le génie industriel;0;FEGI;GI;Economie;33;33;33;33;TD
+2012;Advanced Economics In Industrial Engineering;1;AdvEco;GI;Economie;33;43,89;33;43,89;CTD2
+2012;Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;4,5;6,75;4,5;6,75;CM
+2012;Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;12;12;12;12;TD
+2012;PFE encadrement;0;PFE tuteur;GI;Stage;27;27;27;27;TD
+2012;PFE présidence;0;PFE Pres;GI;Stage;3;3;3;3;TD
+2012;PFE référent;0;PFE ref;GI;Stage;6;6;6;6;TD
+2012;Stage ingénieur adjoint;0;IA;GI;Stage;6;6;6;6;TD
+2012;Etudes De Marché;0;;GI;Stage;4;5;4;5;CTD
+2013;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;CPP;Economie;;;;12;CM
+2013;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;CPP;Economie;;;;20;TD
+2013;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;CPP;Economie;;;;3;TD
+2013;Principes et méthodes statistiques;0;PMS;Ensimag;Statistique;;;;45;CTD
+2013;Principes et méthodes statistiques;0;PMS;Ensimag;Statistique;;;;6;TD
+2013;Génie industriel : expériences et méthodes;0;GIEM;GI;GI;;;;19,5;TD
+2013;Génie industriel : expériences et méthodes;0;GIEM;GI;GI;;;;2,25;CM
+2013;Statistiques inférentielles;0;Stat1A;GI;Statistique;;;;21;TD
+2013;Statistiques inférentielles;0;Stat1A;GI;Statistique;;;;15;TDTP
+2013;"Projet ""le génie industriel d'un produit""";0;GIP;GI;GI;;;;32;TD
+2013;Etude de terrain;0;EDT;GI;Stage;;;;4;TD
+2013;UE Travaux d'études et de recherche;0;TER-IRL;Ensimag;Economie;;;;3;TD
+2013;UE Analyse de données pour les métiers du Génie industriel;0;ADGI;GI;Statistique;;;;33,75;CTD
+2013;UE Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;;;;7,5;TD
+2013;UE Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;;;;9;CM
+2013;UE Advanced Economics for Industrial Engineering;0;AdvEco;GI;Economie;;;;14,97;TD
+2013;UE Advanced Economics for Industrial Engineering;0;AdvEco;GI;Economie;;;;24,75;CM
+2013;UE Advanced Economics for Industrial Engineering-anglais;0;AdvEco;GI;Economie;;;;20,63;CTD
+2013;Stage ingénieur adjoint PRES;0;IA Pres;GI;Stage;;;;7;
+2013;Stage ingénieur adjoint Tuteur;0;IA;GI;Stage;;;;3;
+2013;Stage ingénieur adjoint Référent;0;IA ref;GI;Stage;;;;5;TD
+2013;PFE Pres;0;PFE Pres;GI;Stage;;;;1;
+2013;PFE encadrement;0;PFE tuteur;GI;Stage;;;;6;TD
+2013;PFE référent;0;PFE ref;GI;Stage;;;;7,5;TD
+2013;Statistiques;0;Stat-IMT;imt;Statistique;;;;10;CTD
+2014;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;GI;Economie;;;;6;TD
+2014;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;GI;Economie;;;;2;CM
+2014;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;GI;Economie;;;;7,5;TD
+2014;Principes et méthodes statistiques;0;PMS;Ensimag;Statistique;;;;41,25;TD
+2014;Introduction à la recherche en laboratoire;0;TER-IRL;Ensimag;Economie;;;;3;CM
+2014;Principes et méthodes statistiques;0;PMS;Ensimag;Statistique;;;;9,75;TD
+2014;Génie industriel d'un produit 1;0;GIP;GI;GI;;;;32;CM
+2014;UE Génie industriel : expériences et méthodes;0;GIEM;GI;GI;;;;6;CTD
+2014;UE Génie industriel : expériences et méthodes;0;GIEM;GI;GI;;;;21;TD
+2014;Statistiques inférentielles Anglais;1;Stat1A;GI;Statistique;;;;8,25;TD
+2014;Statistiques inférentielles;0;Stat1A;GI;Statistique;;;;27;TD
+2014;Statistiques inférentielles;1;Stat1A;GI;Statistique;;;;6,75;CM
+2014;Statistiques inférentielles;1;Stat1A;GI;Statistique;;;;9;TPTD
+2014;UE Travaux d'études et de recherche;1;TER-IRL;GI;Economie;;;;3;CTD
+2014;UE Analyse de données pour les métiers du génie industriel;1;ADGI;GI;Statistique;;;;33,75;CM
+2014;UE Logistique de transport et recherche opérationnelle;1;LTRO;GI;Economie;;;;4,5;TD
+2014;UE Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;;;;9;TD
+2014;UE Advanced Economics for Industrial Engineering;0;AdvEco;GI;Economie;;;;15;TD
+2014;UE Advanced Economics for Industrial Engineering - Cours en Anglais;0;AdvEco;GI;Economie;;;;37,5;TD
+2014;UE Basic Economics for Sustainable Industrial Engineering;0;BEIE;GI;Economie;;;;48;TD
+2014;Etude de terrain (2 EDT);0;EDT;GI;Stage;;;;8;TD
+2014;Stage ingénieur adjoint Référent (6 élèves);0;IA ref;GI;Stage;;;;2,5;TD
+2014;PFE encadrement (Laieb, Lafond);0;PFE tuteur;GI;Stage;;;;3;TD
+2014;PFE référent (7 élèves);;PFE ref;GI;Stage;;;;6;
+2015;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;CPP;Economie;2;2;12;12;TD
+2015;THEME ORGANISATION INDUSTRIELLE;0;OI-ECO;CPP;Economie;6;9;4,5;6,75;CM
+2015;Génie industriel d'un produit 1;0;GIP;GI;GI;32;32;32;32;TD
+2015;Projet Bachelor;0;Pbach;GI;GI;4;4;7;7;TD
+2015;UE Génie industriel : expériences et méthodes;0;GIEM;GI;GI;4;6;4;6;CM
+2015;UE Génie industriel : expériences et méthodes;0;GIEM;GI;GI;23;23;23;23;TD
+2015;UE Mathématiques et informatique décisionnelles;0;Stat1A;GI;Statistique;3;4,5;3;4,5;CM
+2015;UE Mathématiques et informatique décisionnelles;0;Stat1A;GI;Statistique;31,5;39,38;30;37,5;CTD
+2015;UE Travaux d'études et de recherche;0;TER-IRL;GI;Economie;1,5;1,5;1,5;1,5;TD
+2015;UE Analyse de données pour les métiers du génie industriel;0;ADGI;GI;Statistique;19,5;24,38;18;22,5;CTD
+2015;UE Logistique de transport et recherche opérationnelle;0;LTRO;GI;Economie;6;9;6;9;CM
+2015;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;12;18;12;18;CM
+2015;UE Advanced Economics for Industrial Engineering - Cours en Anglais;1;AdvEco;GI;Economie;15;15;15;15;TD
+2015;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;18;22,5;18;22,5;CTD
+2015;UE Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;12;18;12;18;CM
+2015;UE Basic Economics for Sustainable Industrial Engineering - Cours en Anglais;1;BEIE;GI;Economie;6;6;6;6;TD
+2015;Etude de terrain (2 EDT);0;EDT;GI;Stage;8;8;8;8;TD
+2015;Stage IA Orrego, Pomagrzak;0;IA;GI;Stage;1,75;1,75;1,75;1,75;TD
+2015;Stage ingénieur adjoint Référent (6 élèves);0;IA ref;GI;Stage;3;3;3;3;TD
+2015;PFE encadrement (Laieb, Lafond);0;PFE tuteur;GI;Stage;6;6;6;6;TD
+2015;PFE présidence (Stenger);0;PFE Pres;GI;Stage;1;1;1;1;TD
+2015;PFE présidence (Croset, Yabre);0;PFE Pres;GI;Stage;2;2;2;2;TD
+2015;Datamining;0;ESE_Eco;ESE;Economie;;;;24;TD
+2015;PFE référent (7 élèves);0;PFE ref;GI;Stage;3,5;3,5;3,5;3,5;TD
+2016;Thème OI - Economie;0;OI-ECO;CPP;Economie;18;22,5;21;26,25;CTD
+2016;Statistiques;0;Stat-IMT;IMT;Statistique;0;0;20;25;CTD
+2016;UE Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;0;0;6;1,5;TPG
+2016;Génie industriel d'un produit 1;0;GIP;GI;GI;32;32;32;32;TD
+2016;Projet Bachelor;0;Pbach;GI;GI;8;8;8;8;TD
+2016;UE Génie industriel : expériences et méthodes;0;GIEM;GI;GI;21;21;21;21;TD
+2016;UE Génie industriel : expériences et méthodes;0;GIEM;GI;GI;3;3;3;3;TPTD
+2016;UE Génie industriel : expériences et méthodes;0;GIEM;GI;GI;4,5;6,75;4,5;6,75;CM
+2016;UE Mathématiques et informatique décisionnelles;0;Stat1A;GI;Statistique;3;4,5;3;4,5;CM
+2016;UE Mathématiques et informatique décisionnelles;0;Stat1A;GI;Statistique;36;45;36;45;CTD
+2016;UE Analyse de données pour les métiers du génie industriel;0;ADGI;GI;Statistique;0;0;24;30;CTD
+2016;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;36;45;34;42,5;CTD
+2016;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;34;42,5;42;52,5;CTD
+2016;UE Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;12;18;12;18;CM
+2016;Stage opérateur (Direnoglu, Novaglia, Collion);0;StageOp;GI;Stage;1;1;1;1;TD
+2016;Stage IA Soutenance / 21 nov. 16;0;IA;GI;Stage;3,5;3,5;3,5;3,5;TD
+2016;Stage IA Référent (10 élèves);0;IA ref;GI;Stage;5;5;5;5;TD
+2016;PFE encadrement (Weber);0;PFE tuteur;GI;Stage;3;3;3;3;TD
+2016;PFE encadrement (Giraud);0;PFE tuteur;GI;Stage;3;3;3;3;TD
+2016;PFE présidence (Peyrou, Cipriani);0;PFE Pres;GI;Stage;2;2;2;2;TD
+2016;PFE référent (13 élèves);0;PFE ref;GI;Stage;6,5;6,5;6,5;6,5;TD
+2017;Thème OI - Economie;0;OI-ECO;CPP;Economie;0;0;12;12;TD
+2017;Thème OI - Economie;0;OI-ECO;CPP;Economie;0;0;6;9;CM
+2017;Gnie industriel d'un produit 1;0;GIP;GI;GI;10,5;10,5;9;32;TD
+2017;UE Gnie industriel : expriences et mthodes;0;GIEM;GI;GI;4,5;6,75;4,5;6,75;CM
+2017;UE Gnie industriel : expriences et mthodes;0;GIEM;GI;GI;6;6;7,5;7,5;TPTD
+2017;UE Gnie industriel : expriences et mthodes;0;GIEM;GI;GI;21;21;18;18;TD
+2017;UE Mathmatiques et informatique dcisionnelles;0;Stat1A;GI;Statistique;3;4,5;0;4,5;CM
+2017;UE Mathmatiques et informatique dcisionnelles;0;Stat1A;GI;Statistique;30;37,5;0;45;CTD
+2017;UE Analyse de donnes pour les mtiers du gnie industriel;0;ADGI;GI;Economie;9;11,25;0;30;CTD
+2017;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;35,5;44,38;33;41,25;CTD
+2017;UE Advanced Economics for Industrial Engineering - anglais;1;AdvEco;GI;Economie;;;;15;CTD
+2017;UE Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;12;18;10,5;18;CM
+2017;UE Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;12;3;9;2,25;TPG
+2017;UE Basic Economics for Sustainable Industrial Engineering - Cours en Anglais;1;BEIE;GI;Economie;;;;6;TD
+2017;Stage opérateur (3 étudiants);0;StageOp;GI;Stage;1;1;1;1;TD
+2017;Stage IA Soutenance (Rey Millet, Touijer);0;IA;GI;Stage;1,75;1,75;1,75;1,75;TD
+2017;Stage IA Soutenance (Martinez, Scheid, Mercuri, Colomb);0;IA;GI;Stage;3,5;3,5;3,5;3,5;TD
+2017;Stage IA Soutenance (Delaire, Gamonet, Kollros);0;IA;GI;Stage;2,63;2,63;2,63;2,63;TD
+2017;Stage IA long Soutenance (Boulanger);0;IA;GI;Stage;3;3;3;3;TD
+2017;PFE encadrement (Jeanneau);0;PFE tuteur;GI;Stage;3;3;3;3;TD
+2017;Stage IA Soutenance (Maximovitch, Morice, Nachef, Delort);0;IA;GI;Stage;3,5;3,5;3,5;3,5;TD
+2017;Econométrie des variables qualitatives;0;ESE_Eco;ESE;Economie;;;;18;TD
+2017;Formation doctorale : Discrete Choice Modeling;0;ESE_Eco;ESE;Economie;;;;15;TD
+2017;Projet Bachelor;0;Pbach;GI;GI;8;8;8;8;TD
+2017;Etude de terrain (2 EDT);0;EDT;GI;Stage;8;8;8;8;TD
+2017;UE Travaux d'études et de recherche;0;TER-IRL;GI;Economie;1,5;1,5;1,5;1,5;TD
+2017;Stage IA Référent (10 élèves);0;IA ref;GI;Stage;;;;3;TD
+2017;PFE référent;0;PFE ref;GI;Stage;;;;3;TD
+2017;Idex;0;Idex;GI;Adm;;;;20;TD
+2018;Statistiques;0;Stat-IMT;GI;Statistique;0;0;20;25;CTD
+2018;UE Analyse de donnes pour les mtiers du gnie industriel;0;ADGI;GI;Statistique;19,5;24,375;19,5;24,375;CTD
+2018;Industrial Economics;1;IndEco;GI;Economie;12;27;10,5;23,625;CMA3
+2018;Industrial Economics;1;IndEco;GI;Economie;12;3;12;3;TPG
+2018;Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;12;27;13,5;30,375;CMA3
+2018;Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;12;3;12;3;TPG
+2018;Gnie industriel d'un produit 1;0;GIP;GI;GI;0;0;16;16;TD
+2018;Gnie industriel d'un produit 2;0;GIP;GI;GI;0;0;16;16;TD
+2018;Projet Bachelor;0;Pbach;IMT;GI;14;14;14;14;TD
+2018;UE Gnie industriel : expriences et mthodes;0;GIEM;ESE;GI;6;6;4,5;4,5;TPTD
+2018;UE Gnie industriel : expriences et mthodes;0;GIEM;GI;GI;9;9;25,5;25,5;TD
+2018;UE Gnie industriel : expriences et mthodes;0;GIEM;GI;GI;4,5;6,75;3;4,5;CM
+2018;UE Mathmatiques et informatique dcisionnelles;0;Stat1A;GI;Statistique;3;4,5;3;4,5;CM
+2018;UE Mathmatiques et informatique dcisionnelles;0;Stat1A;GI;Statistique;30;37,5;33;41,25;CTD
+2018;Travaux d'étude et de recherche;0;TER-IRL;GI;GI;0,5;0,5;0,5;0,5;TD
+2018;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;6;8,25;9;12,375;CTD3
+2018;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;35,5;48,8125;36,5;50,1875;CTD3
+2018;UE Sustainable Economics;1;Sust.Eco;GI;Economie;12;27;7,5;16,875;CMA3
+2018;UE Sustainable Economics;1;Sust.Eco;GI;Economie;12;3;12;3;TPG
+2018;Projet IDEX (Industrie 4.0);0;Idex;GI;Adm;16;16;16;16;EH
+2018;Stage opérateur (Campolo, Meier, Zambon);0;StageOp;GI;Stage;1;1;1;1;TD
+2018;PFE encadrement (Ton, Jerusalem, Devaud);0;PFE tuteur;GI;Stage;9;9;9;9;TD
+2018;PFE encadrement (Appamon);0;PFE tuteur;GI;Stage;3;3;3;3;TD
+2018;PFE encadrement (Galasso, Zakriti, Tesio);0;PFE tuteur;GI;Stage;9;9;9;9;TD
+2018;PFE presidence (Cames, Mitrovic);0;PFE Pres;GI;Stage;2;2;2;2;TD
+2018;PFE presidence (Lopez, Frey, Duval);0;PFE Pres;GI;Stage;3;3;3;3;TD
+2018;PFE présidence (Mueller);0;PFE Pres;GI;Stage;1;1;1;1;TD
+2018;PFE presidence (Dupraz, Motassim);0;PFE Pres;GI;Stage;2;2;2;2;TD
+2018;PFE referent (2 etud);0;PFE ref;GI;Stage;1;1;1;1;TD
+2018;Econométrie des variables qualitatives;0;ESE_Eco;ESE;Economie;0;0;40,5;40,5;TD
+2018;Chargé de mission (part. indus.,orient. active,Obs.,intern.);0;Resp Adm;GI;Adm;24;24;24;24;PRP
+2019;Statistiques;0;Stat-IMT;GI;Statistique;0;0;20;25;CTD
+2019;UE Analyse de donnes pour les mtiers du gnie industriel;0;ADGI;GI;Statistique;19,5;24,375;19,5;24,375;CTD
+2019;Industrial Economics;1;IndEco;GI;Economie;12;27;10,5;23,625;CMA3
+2019;Industrial Economics;1;IndEco;GI;Economie;12;3;12;3;TPG
+2019;Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;12;27;13,5;30,375;CMA3
+2019;Basic Economics for Sustainable Industrial Engineering;1;BEIE;GI;Economie;12;3;12;3;TPG
+2019;Gnie industriel d'un produit 1;0;GIP;GI;GI;0;0;16;16;TD
+2019;Gnie industriel d'un produit 2;0;GIP;GI;GI;0;0;16;16;TD
+2019;Projet Bachelor;0;Pbach;IMT;GI;0;0;0;0;TD
+2019;UE Gnie industriel : expriences et mthodes;0;GIEM;ESE;GI;6;6;4,5;4,5;TPTD
+2019;UE Gnie industriel : expriences et mthodes;0;GIEM;GI;GI;6;6;6;6;TD
+2019;UE Gnie industriel : expriences et mthodes;0;GIEM;GI;GI;4,5;6,75;3;4,5;CM
+2019;UE Mathmatiques et informatique dcisionnelles;0;Stat1A;GI;Statistique;3;4,5;3;4,5;CM
+2019;UE Mathmatiques et informatique dcisionnelles;0;Stat1A;GI;Statistique;30;37,5;33;41,25;CTD
+2019;Travaux d'étude et de recherche;0;TER-IRL;GI;GI;0,5;0,5;0,5;0,5;TD
+2019;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;0;0;0;0;CTD3
+2019;UE Advanced Economics for Industrial Engineering;1;AdvEco;GI;Economie;0;0;0;0;CTD3
+2019;UE Sustainable Economics;1;Sust.Eco;GI;Economie;12;27;7,5;16,875;CMA3
+2019;UE Sustainable Economics;1;Sust.Eco;GI;Economie;12;3;12;3;TPG
+2019;Projet IDEX (Industrie 4.0);0;Idex;GI;Adm;0;0;0;0;EH
+2019;Stage opérateur (Campolo, Meier, Zambon);0;StageOp;GI;Stage;1;1;1;1;TD
+2019;PFE encadrement (Ton, Jerusalem, Devaud);0;PFE tuteur;GI;Stage;9;9;9;9;TD
+2019;PFE encadrement (Appamon);0;PFE tuteur;GI;Stage;3;3;3;3;TD
+2019;PFE encadrement (Galasso, Zakriti, Tesio);0;PFE tuteur;GI;Stage;9;9;9;9;TD
+2019;PFE presidence (Cames, Mitrovic);0;PFE Pres;GI;Stage;2;2;2;2;TD
+2019;PFE presidence (Lopez, Frey, Duval);0;PFE Pres;GI;Stage;3;3;3;3;TD
+2019;PFE présidence (Mueller);0;PFE Pres;GI;Stage;1;1;1;1;TD
+2019;PFE presidence (Dupraz, Motassim);0;PFE Pres;GI;Stage;2;2;2;2;TD
+2019;PFE referent (2 etud);0;PFE ref;GI;Stage;1;1;1;1;TD
+2019;Econométrie des variables qualitatives;0;ESE_Eco;ESE;Economie;0;0;40,5;40,5;TD
+2019;Chargé de mission (part. indus.,orient. active,Obs.,intern.);0;Resp Adm;GI;Adm;24;24;24;24;PRP
+2019;Chargé de mission (RI);0;Resp Adm;GI;Adm;0;0;10;10;TD
