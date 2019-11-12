@@ -3,7 +3,7 @@
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "custom"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
@@ -83,14 +83,21 @@ Mes publications sont réparties en une publication en économie classée 1 CNRS
 
 Articles dans des revues à comité de lecture (* revues classées, rang HCERES, rang CNRS 2015) :
 
-**Rang HCERES des revues à comité de lecture **
 
-|----:|:------------------------------------------:|:--:|:--:|:--------------------:|:-----:|
-|rang |A                                    |B  |C  |Autres (non classés) |Total |
+**Rang HCERES des revues à comité de lecture**
+
+
+
+|rang |A                                |B  |C  |Autres (non classés) |Total |
+|----:|:------------------------------:|:---:|:---:|:--------------------:|:-----:|
 |nb   |3                                    |3  |5  |4                    |15    |
 
-**Rang CNRS des revues à comité de lecture **
 
-|----:|:------------------------------------------:|:--:|:--:|:--------------------:|:-----:|
-|rang |1                               |2  |3  |4  | Autres (non classés) |Total |
-|nb   |1                               |2  |2  |6  | 4  |           |15    |
+**Rang CNRS des revues à comité de lecture**
+
+
+
+|rang |1              |   2  |   3  |4   | Autres (non classés) |Total |
+|----:|:--------------:|:---:|:---:|:---:|:--------------------:|:-----:|
+|nb   |1              |   2  |   2  |6   | 4                  |  15    |
+

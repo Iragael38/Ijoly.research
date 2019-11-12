@@ -5,7 +5,7 @@ email_form: 2
 headless: true
 subtitle: ""
 title: Leave a message
-weight: 50
+weight: 95
 widget: contact
 ---
 

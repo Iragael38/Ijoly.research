@@ -324,6 +324,11 @@ Le fichier image est dans le dossier du post (une copie dans `static\img\` sembl
 
 Save your main icon and mobile icon as square PNG images named `icon.png` and apple-touch-icon.png, respectively. Place them in your root `static/img/ folder`.
 
+## `md` Markdown Syntax 
+
+- [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
 # Références
 
 - Xie, Yihui. 2017a. Blogdown: Create Blogs and Websites with R Markdown. https://github.com/rstudio/blogdown.
