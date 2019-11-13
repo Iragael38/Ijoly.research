@@ -29,12 +29,14 @@
   weight = 40
 
 [[main]]
-  name = "Contact/About"
-  url = "/contact"
+  name = "Friends"
+  url = "/friends"
   weight = 60
 
 [[main]]
-  name= "Resume"
-  url= "#resume"
-  weigth = 70
+  name = "Contact/About"
+  url = "/contact"
+  weight = 70
+
+
 
