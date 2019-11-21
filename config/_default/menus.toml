@@ -28,10 +28,6 @@
   url = "#publications"
   weight = 40
 
-[[main]]
-  name = "Friends"
-  url = "/friends"
-  weight = 60
 
 [[main]]
   name = "Contact/About"
@@ -39,7 +35,7 @@
   weight = 70
 
 [[main]]
-  name = "Friends2"
-  url = "/contactCopie"
+  name = "Friends"
+  url = "/friends"
   weight = 80
 
