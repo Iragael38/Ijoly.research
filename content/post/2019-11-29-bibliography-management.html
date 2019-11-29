@@ -1,0 +1,98 @@
+---
+title: Bibliography Management - in construction
+author: IJ
+date: '2019-11-29'
+slug: bibliography-management
+categories:
+  - R
+tags:
+  - Rmarkdown
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-11-29T11:57:03+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+link-citations: yes
+references:
+- id: xie2016bookdown
+  title: 'Bookdown: Authoring Books and Technical Documents with R Markdown'
+  author: 
+  - family: 'Xie'
+    given: 'Yihui'
+  publisher: 'CRC Press'
+  type: book
+  issued:
+    year: '2016'
+---
+
+
+
+<p>Citation, references and bibliography may take some times. Especially if you do not anticipate that.</p>
+<p>Here are some tricks or solutions I have found for specific challenges and situations during the conversion of my materials into another type using R.</p>
+<div id="referencing-in-rmd" class="section level2">
+<h2>Referencing in Rmd</h2>
+<p>Quite simple, evenif you do not master BibTeX.</p>
+<p>You need a BibTeX file, with extension <code>.bib</code>. For example a file with two references:</p>
+<pre><code>@article{RCoreTeam,
+  Title   = {R: A Language and Environment for Statistical Computing},
+  Author  = {{R Core Team}},
+  Year    = {2015},
+  Type    = {Journal Article},
+  Url     = {http://www.R-project.org}
+} 
+@book{xie2016bookdown,
+  title={Bookdown: Authoring Books and Technical Documents with R Markdown},
+  author={Xie, Yihui},
+  year={2016},
+  publisher={CRC Press}
+}</code></pre>
+<p>In the YAML of you document after the output definition you add :</p>
+<pre class="r"><code>output: pdf_document
+bibliography: [Liste_Publi1.bib]
+link-citations: yes
+nocite: &#39;@*&#39;</code></pre>
+<ul>
+<li><code>bibliography:</code> indicating the <code>.bib</code> file or files : <code>[Liste_Publi1.bib, Liste_Publi2.bib]</code></li>
+<li><code>link-citations: yes</code>: to make each citation linked to the reference in the bibliography section.</li>
+<li><code>nocite: '@*'</code>: where <code>'@*'</code> is for all references in the bib file. You can choose specific reference that are not cited in the text, but that you want appear in the bibliography :</li>
+</ul>
+<pre class="r"><code>nocite: |
+  @item1, @item2</code></pre>
+<p>Finaly in your text, you add citation using <code>@xie2016bookdown</code> or <code>[@xie2016bookdown]</code> to abtain a citation without or with parentheses ( <span class="citation">Xie (<a href="#ref-xie2016bookdown" role="doc-biblioref">2016</a>)</span> or <span class="citation">(Xie <a href="#ref-xie2016bookdown" role="doc-biblioref">2016</a>)</span> ).</p>
+</div>
+<div id="transforming-a-text-references-list-into-a-bibtex-bibliography" class="section level2">
+<h2>Transforming a text references list into a bibtex bibliography</h2>
+<p><strong>Objective:</strong> Transform my 90 references list into a BibTeX file.</p>
+<p>I use <a href="https://text2bib.economics.utoronto.ca/index.php/index/convert">text2bib</a> free online tool, developped and maintained at Toronto University by Martin J. Osborne and Fabian Qifei Bai.</p>
+<ul>
+<li>It requires to sign up for a count, but is free and non intrusive (until now).</li>
+<li>Recognition of the fields is partial (75%). Efficient for publication in journal and books, merely for inbook publication. For conferences, working paper, etc, some files have to be corrected (mainly copy-paste containt of erroneous fields to the correct one)</li>
+<li>The limitation of <strong>text2bib</strong> is that you can not (or I do not find how to) change the proposed reference type when inappropriate (ex from <code>@article</code> to <code>@inbook</code>)</li>
+</ul>
+<p>The step by step approach:</p>
+<ul>
+<li><p>step 1: upload the <code>.txt</code> file of your references list. In this file, each line is a standardized reference. References/lines are separated by blank line (return)<br />
+</p></li>
+<li><p>step 2: a interface display the proposed bibtex data with precompletion of each field (author, year, journal, etc.).</p></li>
+<li><p>step 3: once you have checked a reference, you validate with <code>Add item to BibTeX file and continue</code></p></li>
+<li><p>step 4: once you have checked all references (I have done 90 in less than 1 hour), click <code>Display current BibTeX file (in new window)</code> or <code>Save current BibTeX file</code>, to view or save the bibtex file agregating your checked references.</p></li>
+</ul>
+<p>Finally I create a rmd file containing all the references (see section above)</p>
+</div>
+<div id="sources" class="section level2">
+<h2>Sources:</h2>
+<ul>
+<li>the classic <a href="https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html">RStudio documentation</a></li>
+<li><a href="https://text2bib.economics.utoronto.ca/index.php/index/convert">Text2Bib website</a></li>
+</ul>
+<div id="refs" class="references">
+<div id="ref-xie2016bookdown">
+<p>Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. CRC Press.</p>
+</div>
+</div>
+</div>

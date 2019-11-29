@@ -91,7 +91,7 @@ education:
 ```
     
 
-## Les éléments consituants la page
+## Les éléments constituant la page
 
 ### Ordre des éléments et sections sur la page
 

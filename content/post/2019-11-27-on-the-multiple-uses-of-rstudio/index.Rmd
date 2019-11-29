@@ -1,0 +1,76 @@
+---
+title: On the Multiple Uses of RStudio - in construction
+author: I Joly
+date: '2019-11-27'
+slug: on-the-multiple-uses-of-rstudio
+categories:
+  - R
+tags:
+  - blogdown
+  - Rexams
+  - Rmarkdown
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-11-27T16:32:16+01:00'
+featured: no
+image:
+  caption: Photo by Josue Isai Ramos Figueroa  <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
+  focal_point: 'center'
+  preview_only: no
+projects: []
+---
+
+
+Trying to list the courses I have on the work, it appears that everything turns around R & RStudio. Is it a "manie" or true ability of the softwares ?
+
+# Document editing
+## Dynamic document
+
+Rmarkdown and Knitr have open the way to write so many types of documents. Report, article, slides presentation, webpage, book.
+
+Writing these documents is now dynamic, in the sense that, only the writing is manual activity. Formating the document, listing the bibliographic references, inserting image, drawing figure, building table, summarysing data, are all automated actions. 
+
+This imply that you precise in the document the image you want to insert, but you do not insert the image by hand (copying and pasting). You establish a permanent link between the document and its inputs. Changing an input (for ex. after correction of a graphic) will update the document.
+
+My research presentations and lesson supports are now performed (95%) with Rmarkdown and/or Knitr.
+
+
+## Interactive documents 
+
+I name *interactive documents*, documents which propose interaction with readers, like button, selection, etc. 
+Simple versions of it are the webpages that offer dynamic reading, with multiple tabs.
+
+Dashboard and App are accessible through `Flexdashboard` and `Shiny` offering advanced interactions.
+
+## Office documents
+
+- Excel, word, powerpoint documents are performed. Excel files reading can be performed using `readxl` `openxlsx` and Excel writing with `openxlsx` (not only exporting table in xls format - writing in specific cells and printing figure in sheet, formating tables) with `xltabr`
+
+
+
+# GIS
+
+*Insert carto*
+
+# Learning - Teaching
+
+## Multiple choice question tests
+
+`Rexam`
+*insert screenshot*
++ lien
+
+## Interactive Tutorial
+
+`learnR`
+*insert screen shot*
++ lien
+
+# Blog
+
+Obviously, Rstudio allows blog editing through `blogdown`
++ lien vers post
+
+
+
