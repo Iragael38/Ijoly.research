@@ -22,7 +22,7 @@ projects: []
 ---
 
 
-Trying to list the courses I have on the work, it appears that everything turns around R & RStudio. Is it a "manie" or true ability of the softwares ?
+Trying to list the courses I have on the work, it appears that everything turns around R & RStudio. Is it a behavioral bias, a conviction or true ability of the softwares?
 
 # Document editing
 ## Dynamic document
@@ -39,7 +39,7 @@ My research presentations and lesson supports are now performed (95%) with Rmark
 ## Interactive documents 
 
 I name *interactive documents*, documents which propose interaction with readers, like button, selection, etc. 
-Simple versions of it are the webpages that offer dynamic reading, with multiple tabs.
+Simple versions are the webpages that offer dynamic reading, with multiple tabs.
 
 Dashboard and App are accessible through `Flexdashboard` and `Shiny` offering advanced interactions.
 

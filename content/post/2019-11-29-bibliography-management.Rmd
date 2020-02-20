@@ -1,5 +1,5 @@
 ---
-title: Bibliography Management - in construction
+title: Bibliography Management
 author: IJ
 date: '2019-11-29'
 slug: bibliography-management
@@ -39,7 +39,11 @@ Here are some tricks or solutions I have found for specific challenges and situa
 
 Quite simple, evenif you do not master BibTeX.
 
-You need a BibTeX file, with extension `.bib`. For example a file with two references:
+### First step
+
+You need a BibTeX file, with extension `.bib`. This is a simple text file containing description of the metadata of the references (title, author, year, etc.)
+
+Bibtex uses a specific format as follows:
 
 ```
 @article{RCoreTeam,
@@ -57,7 +61,11 @@ You need a BibTeX file, with extension `.bib`. For example a file with two refer
 }
 ``` 
 
-In the YAML of you document after the output definition you add :
+`@article` and `@book` identifies the reference type which may have specific fields (ex: `publisher`). [Many other types](https://en.wikipedia.org/wiki/BibTeX#Entry_types) exist.
+
+### Second step
+
+In the YAML of your document after the output definition you add:
 
 ```{r, eval=FALSE}
 output: pdf_document
@@ -66,38 +74,39 @@ link-citations: yes
 nocite: '@*'
 ```
 
-- `bibliography:` indicating the `.bib` file or files : `[Liste_Publi1.bib, Liste_Publi2.bib]`
-- `link-citations: yes`: to make each citation linked to the reference in the bibliography section.
-- `nocite: '@*'`: where `'@*'` is for all references in the bib file. You can choose specific reference that are not cited in the text, but that you want appear in the bibliography :
+- `bibliography:` indicates the `.bib` file or files and path : `[Liste_Publi1.bib, common/Liste_Publi2.bib]`
+- `link-citations: yes`: makes each citation linked to the reference in the bibliography section.
+- `nocite: '@*'`: where `'@*'` is for all references in the bib file. You can choose specific references that are not cited in the text, but that you want appear in the bibliography:
+
 ```{r, eval=FALSE}
 nocite: |
   @item1, @item2
 ```
 
+### Third step
+
 Finaly in your text, you add citation using `@xie2016bookdown` or `[@xie2016bookdown]` to abtain a citation without or with parentheses (  @xie2016bookdown or [@xie2016bookdown] ).
 
 
-## Transforming a text references list into a bibtex bibliography
+## Transforming a text references list into a Bibtex bibliography
 
-**Objective:** Transform my 90 references list into a BibTeX file.
+**Objective:** Transform my 90 references list (.txt) into a BibTeX file (.bib).
 
 I use [text2bib](https://text2bib.economics.utoronto.ca/index.php/index/convert) free online tool, developped and maintained at Toronto University by Martin J. Osborne and Fabian Qifei Bai.
 
-+ It requires to sign up for a count, but is free and non intrusive (until now).
-+ Recognition of the fields is partial (75%). Efficient for publication in journal and books, merely for inbook publication. For conferences, working paper, etc, some files have to be corrected (mainly copy-paste containt of erroneous fields to the correct one)
-+ The limitation of **text2bib** is that you can not (or I do not find how to) change the proposed reference type when inappropriate (ex from `@article` to `@inbook`)
++ It requires to sign up for an account, but it is free and non intrusive.
++ Recognition of the fields of the references is partial (75%). It appears to be efficient for publication in journal and books, merely for inbook publication. For conferences, working paper, etc, some files have to be corrected (mainly copy-paste containt of erroneous fields to the correct one)
++ The limitation of **text2bib** is that you can not (or I do not find how to) change the proposed reference type when inappropriate (ex: from `@article` to `@inbook`)
 
-The step by step approach:
+### Step by step approach:
 
 - step 1: upload the `.txt` file of your references list. In this file, each line is a standardized reference. References/lines are separated by blank line (return)  
-- step 2: a interface display the proposed bibtex data with precompletion of each field (author, year, journal, etc.).
-
+- step 2: an interface displays the proposed bibtex data with precompletion of each field (author, year, journal, etc.).
 - step 3: once you have checked a reference, you validate with  `Add item to BibTeX file and continue`
+- step 4: once you have checked all references (I have done 90 in less than 1 hour), click  `Display current BibTeX file (in new window)`  or  `Save current BibTeX file`, to view or save the bibtex file agregating your checked references.
 
-- step 4: once you have checked all references (I have done 90 in less than 1 hour), click  `Display current BibTeX file (in new window)`  or  `Save current BibTeX file `, to view or save the bibtex file agregating your checked references.
 
-
-Finally I create a rmd file containing all the references (see section above)
+Finally I create a `.rmd` file containing all the references (see section above)
 
 
 ## Sources:

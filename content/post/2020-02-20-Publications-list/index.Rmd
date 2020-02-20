@@ -1,0 +1,71 @@
+---
+title: 'Publications List'
+author: I Joly
+date: '2020-02-20'
+slug: journal
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-02-20'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+bibliography: data/Liste_Publi3.bib 
+---
+
+# Publications list
+
+# Recent Publications (* HCERES ranking)
+
+```{r setup, include = FALSE, cache = FALSE}
+library(RefManageR)
+#bib <- ReadBib(system.file("Bib", "biblatexExamples.bib", 
+#                           package = "RefManageR"), check = FALSE)
+myBib <- ReadBib("data/Liste_Publi3_enc.bib", check = FALSE)
+bib2 <- myBib[[seq_len(5)]]
+BibOptions(check.entries = FALSE, style = "markdown", cite.style = "authoryear",
+           bib.style = "numeric")
+```
+
+
+`r NoCite(bib = myBib, author = "Joly")`
+
+
+**References**
+
+```{r results = "asis", echo = FALSE}
+PrintBibliography(myBib[[1:15]], .opts = list(check.entries = FALSE, sorting = "ydn"))
+```
+
+**More References**
+
+```{r results = "asis", echo = FALSE}
+PrintBibliography(myBib[[16:17]])
+```
+
+**Chapitres**
+```{r results = "asis", echo = FALSE}
+PrintBibliography(myBib[[18:10]])
+```
+
+**Sources**
+
+- great [RefManageR] (https://github.com/ropensci/RefManageR) packages by Mathew W. McLean
+
+## Publications list on HAL
+
+Accès à la liste de mes [publications sur HAL]([HAL](https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=iraga%C3%ABl+Joly&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css))
+
+La liste de mes publications sur hal est réalisée à partir de [HAL-tools](https://haltools.archives-ouvertes.fr/)
+
+
+## Other tools to be explored (one day...)
+
+- [Lier les ID hal, orchid, etc](https://archibibscdf.hypotheses.org/997)
+
+

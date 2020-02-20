@@ -1,0 +1,214 @@
+---
+title: 'Bookdown Reminder'
+author: I Joly
+date: '2019-12-13'
+slug: journal
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-12-13'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# A Bookdown Reminder
+
+
+## Publish on GitHub
+
+- The git tab won't appear until you are in a project with a git repo. You can add a git repro to your project via Tools -> Project Options -> Git/SVN
+
+
+One approach is to publish your book as a GitHub Pages site from a /docs folder on your master branch as described in GitHub Help. First, set the output directory of your book to be /docs by adding the line output_dir: "docs" to the configuration file _bookdown.yml. Then, after pushing your changes to GitHub, go to your repository’s settings and under “GitHub Pages” change the “Source” to be “master branch /docs folder”. In this case, the .nojekyll file has to be in the /docs folder.
+
+- add `output_dir: "docs"` in the configuration file `_bookdown.yml`
+- the repo have to be public
+- after pushing your changes to GitHub, go to your repository's settings and under "GitHub Pages" change the "Source" to be "master branch /docs folder".
+
+
+## Sources
+
+- (https://bookdown.org/yihui/bookdown/)[https://bookdown.org/yihui/bookdown/]
+- https://rachaellappan.github.io/bookdown/
+
+## Build the book
+
+
+```
+bookdown::render_book("index.Rmd", "bookdown::gitbook")
+bookdown::render_book("index.Rmd", "bookdown::pdf_book")
+```
+
+## Remarks
+
+### Managing Several Files
+
+By default, bookdown merges all Rmd files by the order of filenames, e.g., `01-intro.Rmd` will appear before `02-literature.Rmd`. Filenames that start with an underscore `_` are skipped. If there exists an Rmd file named `index.Rmd`, it will always be treated as the first file when merging all Rmd files.
+
+You can use a field named `rmd_files` to define your own list and order of Rmd files for the book. For example,
+
+```{r, eval=FALSE}
+rmd_files: ["index.Rmd", "abstract.Rmd", "intro.Rmd"]
+```
+
+In this case, bookdown will just use whatever you defined in this YAML field without any special treatments of `index.Rmd`` or underscores. If you want both HTML and LaTeX/PDF output from the book, and use different Rmd files for HTML and LaTeX output, you may specify these files for the two output formats separately, e.g.,
+
+```{r, eval=FALSE}
+rmd_files:
+  html: ["index.Rmd", "abstract.Rmd", "intro.Rmd"]
+latex: ["abstract.Rmd", "intro.Rmd"]
+```
+
+
+### Keeping in cache a chunk results
+
+` \```{r important-computing, cache=TRUE} `
+
+### Special headers
+
+There are a few special types of first-level headers that will be processed differently in bookdown. The first type is an unnumbered header that starts with the token (PART)
+
+```{r}
+# (PART) Part I {-} 
+
+# Chapter One
+
+# Chapter Two
+
+# (PART) Part II {-} 
+
+# Chapter Three 
+```
+
+You can use (PART\*) (the backslash before * is required) instead of (PART) if a part title should not be numbered.
+
+
+The second type is an unnumbered header that starts with (APPENDIX), indicating that all chapters after this header are appendices, e.g.,
+```{r}
+# Chapter Two
+
+# (APPENDIX) Appendix {-} 
+
+# Appendix A
+```
+
+
+### Text references
+
+
+```{r, eval=FALSE}
+A normal paragraph.
+
+(ref:foo) A scatterplot of the data `cars` using **base** R graphics. 
+
+```{r foo, fig.cap='(ref:foo)'}
+plot(cars)  # a scatterplot
+```
+
+### Figures
+
+```{r, eval=FALSE}}
+knitr::include_graphics(rep("images/knit-logo.png", 3))
+```
+
+
+### Custom Blocks
+
+You can generate custom blocks using the block engine in knitr, i.e., the chunk option `engine = 'block'`, or the more compact syntax ` \```{block} `.
+
+
+```
+```{block, type='FOO'}
+Some text for this block.
+```
+```
+
+For example, we may save the following style in a CSS file, say, `style.css`:
+
+```
+div.FOO {
+  font-weight: bold;
+  color: red;
+}
+```
+
+And the YAML metadata of the R Markdown document can be:
+
+```
+---
+output:
+  bookdown::html_book:
+    includes:
+      in_header: style.css
+---
+```
+
+
+
+there is an alternative engine named block2 that supports arbitrary Markdown syntax, e.g.,
+
+```
+```{block2, type='FOO'}
+Some text for this block [@citation-key].
+
+- a list item
+- another item
+
+More text.
+```
+```
+
+### HTML widgets
+
+Both webshot and PhantomJS can be installed automatically from R:
+
+```
+install.packages("webshot")
+webshot::install_phantomjs()
+```
+
+For example: a table created from the DT package (Xie, Cheng, and Tan 2019):
+```
+DT::datatable(iris)
+```
+
+Below is a Shiny app example (Figure 2.6):
+
+```
+knitr::include_app("https://yihui.shinyapps.io/miniUI/", 
+  height = "600px")
+```
+
+
+### International langages
+
+For non-LaTeX output, you can set the language field in the configuration file `_bookdown.yml`. Currently the default settings are:
+
+```
+language:
+  label:
+    fig: 'Figure '
+    tab: 'Table '
+    eq: 'Equation '
+    thm: 'Theorem '
+    lem: 'Lemma '
+    cor: 'Corollary '
+    prp: 'Proposition '
+    cnj: 'Conjecture '
+    def: 'Definition '
+    exm: 'Example '
+    exr: 'Exercise '
+    proof: 'Proof. '
+    remark: 'Remark. '
+    solution: 'Solution. '
+  ui:
+    edit: Edit
+    chapter_name: ''
+    appendix_name: ''
+```
