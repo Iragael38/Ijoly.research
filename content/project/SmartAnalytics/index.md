@@ -10,9 +10,9 @@ links:
   name: Follow
   url: http://genie-industriel.grenoble-inp.fr
 slides: example
-summary: Smart Analytics for BigData with B. Agard ([PolyMontréal-LID](https://www.polymtl.ca/lid/))   - Commun Course at Grenoble Génie Industriel and Ecole Polytechnique de Montréal.
+summary: New course opening in 2020 - Smart Analytics for BigData with B. Agard ([PolyMontréal-LID](https://www.polymtl.ca/lid/))   - Commun Course at Grenoble Génie Industriel and Ecole Polytechnique de Montréal.
 tags:
-- Machine Learning, IA
+- Machine Learning, IA, Data Sciences
 title: Smart Analytics for BigData
 url_code: ""
 url_pdf: ""

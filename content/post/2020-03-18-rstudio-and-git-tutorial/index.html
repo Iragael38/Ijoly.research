@@ -1,0 +1,178 @@
+---
+title: RStudio and Git tutorial
+author: I Joly
+date: '2020-03-18'
+slug: rstudio-and-git-tutorial
+categories: []
+tags:
+  - book
+  - Git
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-03-18T07:58:34+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<div id="initial-set-up" class="section level2">
+<h2>Initial set up</h2>
+<ol style="list-style-type: decimal">
+<li>Installation de Git (application)</li>
+</ol>
+<ul>
+<li>Windows: <a href="http://git-scm.com/download/win" class="uri">http://git-scm.com/download/win</a>.</li>
+<li>OS X: <a href="http://git-scm.com/download/mac" class="uri">http://git-scm.com/download/mac</a>.</li>
+<li>Debian/Ubuntu: sudo apt-get install git-core.</li>
+<li>Other Linux distros: <a href="http://git-scm.com/download/linux" class="uri">http://git-scm.com/download/linux</a>.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Création d’un compte sur la plateform (<a href="https://gricad-gitlab.univ-grenoble-alpes.fr/users/sign_in">Gitlab</a> donne un compte aux étudiants UGA - sinon utilisez <a href="https://github.com">GitHub</a> )</li>
+</ol>
+<ul>
+<li>générez une clé SSH. La clé SSH sécurise les communications avec les sites web sans besoin de mots de passe. Deux clés sont créées : une publique et une privée.</li>
+<li>Avec R, vous pouvez vérifier si vous possédez déjà une paire de clés :</li>
+</ul>
+<pre class="r"><code>    file.exists(&quot;~/.ssh/id_rsa.pub&quot;)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<ul>
+<li>Si l’instruction renvoie <code>FALSE</code> vous devez créer une nouvelle clé:
+<ul>
+<li>Vous pouvez suivre les instructions sur Gitlab, GitHub et</li>
+<li>aussi celles données par RStudio: dans le menu <code>global options</code>, onglet <code>Git/SVN</code> et click “Create RSA key…”</li>
+</ul></li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Relier votre application installée et votre compte :</li>
+</ol>
+<ul>
+<li>Dans la console (ou <em>terminal</em> ou <em>shell</em>), renseignez votre nom et email</li>
+</ul>
+<pre><code>    git config --global user.name &quot;YOUR FULL NAME&quot;
+    git config --global user.email &quot;YOUR EMAIL ADDRESS&quot;</code></pre>
+<ul>
+<li>Vérifier la configuration : <code>git config --global --list</code></li>
+<li>Vous indiquez ensuite votre clé SSH publique sur GitLab ou GitHub (<a href="https://github.com/settings/ssh" class="uri">https://github.com/settings/ssh</a>). Vous trouverez votre clé sous RStudio dans <code>global options\ Git/SVN</code> en cliquant <code>View public key</code>.</li>
+</ul>
+<p><img src="Figs/git-config-2.png" style="width:50.0%" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Créer un dossier-Git en local</li>
+</ol>
+<ul>
+<li>Il s’agit de créer un dossier local, reconnu par Git. il contiendra donc les fichiers de configurations de Git dans un dossier <code>.git</code> et une base de données enregistrant les l’historique des versions de votre code.</li>
+<li>Le dossier-Git local devra ensuite être partagé.</li>
+<li>Depuis RStudio:<br />
+A. Vous voulez créer un nouveau projet
+<ul>
+<li>il vous faut créer un <em>repository</em> sur GitLab (ou GitHub), puis le cloner en copiant l’url<br />
+</li>
+<li>Depuis RStudio: créer un nouveau projet<br />
+</li>
+<li>en sélectionnant <code>Version Control</code>, puis <code>Git</code><br />
+</li>
+<li>renseigner les différents champs, dont l’url que vous avez copier<br />
+</li>
+<li>Le nouveau projet est synchrone avec votre repo Git</li>
+</ul>
+B. A partir d’un projet existant :
+<ul>
+<li>dans les options du projet, dans l’onglet <code>Git/SVN</code> : changer l’option <code>Version control system</code> de <code>None</code> à <code>Git</code><br />
+</li>
+<li>Vous devrez redémarrer RStudio<br />
+</li>
+<li>dans le terminal: lancer <code>git init</code><br />
+</li>
+<li>Redémarrer RStudio et ouvrez votre projet</li>
+</ul></li>
+</ul>
+</div>
+<div id="git-dans-rstudio" class="section level2">
+<h2>Git dans RStudio</h2>
+</div>
+<div id="interface" class="section level2">
+<h2>Interface</h2>
+<p>Une fois Git initialisé, vous verrez deux nouveaux éléments apparaître dans l’interface de RStudio:</p>
+<ul>
+<li>l’onglet git, dans le cadrant en haut à droite. Il vous montre quels fichiers ont été modifiés et propose les boutons des commandes principales de Git</li>
+</ul>
+<p><img src="Figs/git-pane.png" style="width:50.0%" /></p>
+<ul>
+<li>dans la barre d’outils, vous avez accès au menu déroulant qui inclut les commandes Git et GitHub qui s’appliquent au fichier en cours.</li>
+</ul>
+<p><img src="Figs/git-dropdown.png" style="width:25.0%" /></p>
+</div>
+<div id="usages" class="section level2">
+<h2>Usages</h2>
+<p>Les modifications des lignes de codes, des fichiers et des dossiers, en gros de tout le projet, sont enregistrés et accessibles.</p>
+<p>Dans l’onglet Git, on trouve la liste des modifications réalisées selon qu’il s’agit de :</p>
+<ul>
+<li><img src="Figs/git-modified.png" scale="10%" /> <em>Modification</em>: le contenu du fichier a été modifié</li>
+<li><img src="Figs/git-unknown.png" scale="10%" /> <em>Untracked</em>: un nouveau fichier a été ajouté au projet</li>
+<li><img src="Figs/git-deleted.png" scale="10%" /> <em>Supprimé</em>: un fichier a été supprimé</li>
+</ul>
+<p>On peut aussi faire une analyse de différence entre versions (celle en local et celle stockée sur Git) : <img src="Figs/git-diff.png" scale="10%" /></p>
+<p><img src="Figs/git-diff-window.png" style="width:50.0%" /></p>
+<p>Les modidications apparaissent en vert, pour les ajouts, en rouge, pour les suppressions. Les lignes grises reprennent les éléments stables autours des modifications.</p>
+<div id="enregistrement-des-modifications" class="section level3">
+<h3>Enregistrement des modifications</h3>
+<p>Une notion essentielle de Git est le <code>commit</code>.</p>
+<p>Le <code>commit</code> est un instantané du code à un moment donné. Ils sont utilisés comme des relais ou des points d’ancrage.</p>
+<p>Après un <code>commit</code>, modifier le code est sans risque, puisqu’on peut toujours revenir au relais précédent.</p>
+<p>Chaque <code>commit</code> comprend 5 composants clé:</p>
+<ul>
+<li>un identifiant unique appelé SHA (<em>secure hash algorithm</em>)</li>
+<li>un <code>changeset</code> décrivant quels fichiers ont été ajoutés, modifiés, supprimés</li>
+<li>un message lisible décrivant le <code>commit</code></li>
+<li>un parent: le <code>commit</code> qui précède celui décrit (sauf pour le 1er <code>commit</code>, et sauf pour les fusions (<em>merge</em> entre 2 parents)</li>
+<li>un auteur du <code>commit</code></li>
+</ul>
+<p><img src="Figs/git-commit-window.png" style="width:50.0%" /></p>
+<p>Avec RStudio, la fenêtre de <code>commit</code>est composée de :</p>
+<ul>
+<li>en haut à gauche, les modifications en cours</li>
+<li>en haut à droite, vous pouvez renseignez un message décrivant les modif du `commit</li>
+<li>en bas, les différences sur le fichier séelctionné en haut à gauche</li>
+</ul>
+<p>La fenêtre de <code>commit</code> permet de faire ces deux étapes. Cliquer <img src="Figs/git-commit.png" scale="10%" />, ou <code>Ctrl + Alt + m</code></p>
+<p>Un <code>commit</code> est créé :</p>
+<ul>
+<li>en sauvegardant le fichier modifié</li>
+<li>ouvrant la fenêtre de <code>commit</code></li>
+<li>en sélectionnant les fichiers inclus dans le nouveau <code>commit</code>. On coche les fichiers à inclure. <code>Ctrl + A</code> pour tous les sélectionner et <code>Entrée</code> pour tous les cocher</li>
+<li>en décrivant le <code>commit</code></li>
+<li>en cliquant <code>commit</code></li>
+</ul>
+</div>
+</div>
+<div id="commit-best-practices" class="section level2">
+<h2>Commit best practices</h2>
+<p>Dasn l’idéal chaque <code>commit</code> doit être minimal mais complet:</p>
+<ul>
+<li>minimal: un <code>commit</code> doit contenir les chagement liés à un seul problème. Cela facilitera la compréhension du <code>commit</code> et sa description en un seul message. A chaque problème son <code>commit</code>!</li>
+<li>complet: un <code>commit</code> doit résoudre le problème qu’il traite. Il devrait inclure un test démontrant la résolution du problème</li>
+</ul>
+<p>Chaque message de <code>commit</code>devrait</p>
+<ul>
+<li>être concis et claire. Indiquer ce qui est fait avec suffisament de détails.</li>
+<li>décrire le pourquoi et non le quoi ou le comment. L’analyse des différences montrera ce qui a été fait. Le message doit être synthétique et décrire les raisons des modifications réalisées</li>
+</ul>
+<p>Ainsi, le travail à plusieurs, le codage simultané devrait être faciliter, notamment la résolution de conflits entre codes. Les nouveaux venus dans les projets comprendront mieux ce qui est fait.
+Avec le suivi de version, l’apparition des bugs sera plus simple à suivre.</p>
+<p>Le <code>commit</code> c’est surtout une documentation pour soi !</p>
+<p>Bien entendu, dans la pratique, tout n’est pas toujours parfait… Plusieurs petits <code>commit</code> mal renseignés, valent mieux qu’un gros bien fait.</p>
+</div>
+<div id="webography" class="section level2">
+<h2>Webography</h2>
+<ul>
+<li><p><a href="http://r-pkgs.had.co.nz/git.html">Git and GitHub</a></p></li>
+<li><p><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR - Jenny Bryan</a></p></li>
+<li><p><a href="https://github.com/bcgov/bcgov-data-science-resources/wiki/Tutorial:-Intro-to-Git-&amp;-GitHub-for-the-R-User">Tutorial: Intro to Git &amp; GitHub for the R User</a></p></li>
+<li><p><a href="https://statistique-et-logiciel-r.com/versionnage-de-vos-scripts-rstudio-git/">Statistique et Logiciel R</a></p></li>
+</ul>
+</div>

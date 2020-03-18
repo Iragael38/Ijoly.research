@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/georgecushen
 slides: example
-summary: "Digital technologies in circular economy transition: Evidences from case studies."
+summary: "Research Project: Digital technologies in circular economy transition: Evidences from case studies."
 tags:
 - Deep Learning
 title: Digital technologies & Circular Economy

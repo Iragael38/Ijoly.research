@@ -10,10 +10,10 @@ links:
   name: Follow
   url: http://genie-industriel.grenoble-inp.fr
 slides: example
-summary: Digital Transformations...
+summary: "New course opening in 2020: Digital transformation and organization: digital goods, eco-system and markets"
 tags:
 - Digital Transformations
-title: Digital Transformations
+title: "Digital transformation and organization: digital goods, eco-system and markets"
 url_code: ""
 url_pdf: ""
 url_slides: ""

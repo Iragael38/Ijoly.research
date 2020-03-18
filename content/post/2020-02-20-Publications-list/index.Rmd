@@ -1,5 +1,5 @@
 ---
-title: 'Publications List'
+title: 'My Publications List'
 author: I Joly
 date: '2020-02-20'
 slug: journal
@@ -18,7 +18,8 @@ projects: []
 bibliography: data/Liste_Publi3.bib 
 ---
 
-# Publications list
+# My Publications List
+performed with `RefManageR` package
 
 # Recent Publications (* HCERES ranking)
 
