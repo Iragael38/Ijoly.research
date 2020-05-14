@@ -1,0 +1,168 @@
+---
+title: "Iragaël Joly"
+author: Iragaël Joly
+date: "`r Sys.Date()`"
+resource_files:
+  - ../static/
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+---
+
+
+
+<img alt = 'my new screenshot' width='200' src='/resume/avatar.jpg' />
+
+
+## Assistant Professor  
+at **Industrial Engineering & Management School** at Grenoble Institute of Technology  
+in **Economics, Econometrics and Statistics**  
+Researcher at **Grenoble Applied Economics Laboratory** (GAEL)
+
+[Contact](/content/Contact)
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Economics
+- Data Science, data analysis
+- Communication to scientific and general public
+
+
+
+|          |              |
+|:----------------------|--------------:|
+|R & R Studio        |  ![skill5](/resume/skill5.png){width=50%}  |
+|Sas                 |  ![SAS](/resume/skill4.png){width=50%}   |
+|Stata               | ![SAS](/resume/skill3.png){width=50%}  |
+|SQL QGIS & Python   | ![SAS](/resume/skill3.png){width=50%}  |
+
+
+
+
+<!--::: POSITION   -->
+Research Experience {data-icon=flask}
+--------------------------------------------------------------------------------
+
+### Assistant Professor & Researcher   -   Current-2007
+
+Grenoble Institute of Engineering - Industrial Engineering and Management School  
+Grenoble Applied Economics Laboratory (GAEL UMR INRA CNRS UGA 1215)
+Grenoble, FR
+
+
+### Graduate Research Assistant / Lecturer  -  2007--2005
+
+Transport Economics Laboratory,   Lyon, FR
+
+- Mobility and Activity-Based Analysis
+- Travel survey of 15 European cities
+
+### Lecturer  -  2006--2001
+University of Lyon,  Lyon, FR
+
+- Econometrics
+- Industrial Economics
+
+<!--::: TEACHING   -->
+Selected Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Discrete Choice Modelling
+
+Grenoble University, doctoral lesson
+2018--2017   Grenoble, FR
+
+### Advanced Economics for Industrial Engineering
+
+Industrial Engineering and Management School
+2018--2011   Grenoble, FR
+
+### Statistics for Industrial Engineering
+
+Vocational training Department - Grenoble Inp
+2019--2016    Grenoble, FR
+
+
+
+
+<!--::: PUBLICATIONS   -->
+
+Selected Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+### A new family of qualitative choice models: An application of reference models to travel mode choice **2019**
+H Bouscasse, **I Joly**, J Peyhardi  
+Transportation Research Part B. doi:10.1016/j.trb.2018.12.010.
+
+### How does environmental concern influence mode choice habits? A mediation analysis  **2018**
+H Bouscasse, **I Joly**, P Bonnel  
+Transportation Research Part D: Transport and Environment. doi:10.1016/j.trd.2018.01.007
+
+### Exploring the Links between Reputation and Fame: Evidence from French Contemporary Architecture  **2017**
+A Boutinot, **I Joly** , V Mangematin, S Ansari  
+Organization Studies.  doi:10.1177.0170840616670433
+
+### Consumers' preferences for eco-innovative products: elicitation of willingness to pay for upgradeable products », **2017**
+C Michaud, **I Joly**, D Llerena, V Lobasenko
+International Journal of Sustainable Development.  doi:10.1504.IJSD.2017.083493
+
+### Intensive travel time: an obligation or a choice?   **2016**
+**I Joly**, S Vincent-Geslin
+European Transport Research Review. doi:10.1007.s12544-016-0195-7
+
+### Willingness to pay for environmental attributes of non-food products: a real choice experiment  **2012**
+
+C Michaud, **I Joly**, D Llerena
+European Review of Agricultural Economics.  doi:10.1093.erae.jbs025
+
+### Travel and activity time allocation: an empirical comparison between cities in Europe  **2011**
+
+C Raux, TY Ma, **I Joly**, V Kaufmann, E Cornelis, N Ovtracht
+Transport Policy.   doi:10.1016.j.tranpol.2010.11.004
+
+
+<!--::: EDUCATION   -->
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Professor Qualification
+
+Conseil national des universités  -  Paris, FR
+2018
+   - Section CNU 05 - Economics
+
+### HDR in Economics
+
+University of Lyon  -  Lyon, FR
+2017
+
+- *Modelling behavior of derived consumption: the case of travel time*  
+- *Jury* : Thierry Blayac, Michel Bierlaire , Sylvie Charlot, Hubert Jayet et Michel Simioni
+
+### Assistant Professor Qualification
+
+Conseil national des universités  -  Paris, FR
+2006  
+   - Sections: CNU 05 Economics and   
+ CNU 24 - Urban planning and urbanism
+
+
+### PhD in Economics
+
+University of Lyon  -  Lyon, FR
+2000--2005
+
+- *Allocation of time to travel - International study of travel time budget and duration model*. 
+- Mention très honorable, avec félicitations du jury à l'unanimité.
+- Jury : Alain Bonnafous, François Gardes, Claude Montmarquette, Jean-Pierre Orfeuil, Philippe Toint
+
+### Toulouse School of Economics
+
+Master in Transport Economics  -  Toulouse, FR
+2002--2006
+
+
+

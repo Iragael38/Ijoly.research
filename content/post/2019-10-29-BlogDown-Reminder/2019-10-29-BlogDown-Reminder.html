@@ -1,0 +1,263 @@
+---
+title: A Blogdown Reminder
+author: I Joly
+date: '2019-10-29'
+slug: blogdown-reminder
+categories:
+  - R
+tags:
+  - Rmarkdown
+  - Blogdown
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-24T15:56:19+02:00'
+featured: no
+image:
+  caption: 'Photo by Josue Isai Ramos Figueroa'
+  focal_point: 'center'
+projects: []
+---
+
+
+
+<figure class="kg-card kg-card-image kg-card-hascaption">
+&lt;img src=‘josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg’ alt=“Photo by” class=“kg-image”
+<figcaption>
+Photo by Josue Isai Ramos Figueroa <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
+</figcaption>
+</figure>
+<div id="ou-est-quoi" class="section level1">
+<h1>Où est quoi ?</h1>
+<p>Ce premier essai de blogdown m’a paru être un jeu de piste. Pour pouvoir podifier une petite partie, un bout de texte, etc. il faut savoir où cela se calibre.</p>
+<p>Cette note est écrite pour répondre à ce besoin ressenti.</p>
+<figure class="kg-card kg-card-image kg-card-hascaption">
+&lt;img src=‘/content/post/2019-10-29-BlogDown-Reminder/Tuto1.png’ alt=“Tuto1” class=“kg-image”
+<figcaption>
+Screenshot by IJ
+</figcaption>
+</figure>
+<div id="a-gauche" class="section level2">
+<h2>A gauche:</h2>
+<p>Les éléments de gauche sont modifiés dans : <code>content\authors\admin\_index.md</code>.
+Le YAML, définit plusieurs sections: auteur, rôle, organisation et les liens des réseaux sociaux qui apparaissent à gauche</p>
+<div id="la-description-de-lauteur" class="section level3">
+<h3>La description de l’auteur</h3>
+<p>La section <code>authors:</code> définie plusieurs champs :</p>
+<ul>
+<li>Nom et prénom: <code>name:</code></li>
+<li>Rôle: <code>role:</code></li>
+<li>L’organisation: dans le YAML. En section <code>organizations</code>. On précise le <code>name:</code> et l’ <code>url:</code></li>
+<li>Les icônes de liens (LinkedIn, ResearchGate, etc.): <code>content\authors\admin\_index.md</code> : dans le YAML. En section <code>social</code>, on précise l’icône (à la fois le nom de l’icône dans le paquet d’où il est <a href="https://fontawesome.com/">téléchargé</a> ) et le lien interne (une autre page du blog - cv ou résumé ou contact) ou externe (une url)</li>
+</ul>
+<pre><code>authors:
+name: MySelf
+role: My role
+bio: My research interests include...
+organizations:
+- name: The best Institution ever 
+  url: http://genie-industriel.grenoble-inp.fr//
+social:
+- icon: paper-plane
+  icon_pack: fas
+  link: /contact</code></pre>
+</div>
+<div id="remarques" class="section level3">
+<h3>Remarques</h3>
+<ul>
+<li>La bio: <code>bio:</code> : La bio apparaît en bas de page des diffétentes pages du blog: des posts, des projets, le résumé, etc.</li>
+<li>Attention, l’indentation est sensible ici</li>
+</ul>
+</div>
+</div>
+<div id="a-droite" class="section level2">
+<h2>A droite</h2>
+<p>Deux fichiers décrivent cette partie</p>
+<ul>
+<li>Le titre: est dans <code>content/home/about.md</code></li>
+<li>l’image: <code>content\authors\admin\_index.md</code> en dehors du / après le YAML</li>
+<li>le petit texte: <code>content\authors\admin\_index.md</code> en dehors du /après le YAML</li>
+</ul>
+<div id="les-listes-automatiques" class="section level3">
+<h3>Les listes automatiques :</h3>
+<ul>
+<li><em>Interests</em>: <code>content\authors\admin\_index.md</code>: En section <code>interests</code>, on décrit une liste à points d’intérêts</li>
+<li><em>Education</em>: <code>content\authors\admin\_index.md</code>: En section <code>education</code>, on décrit un ensemble de <code>courses</code>. Chaque <code>course</code> est décrit par son nom <code>course</code>, son <code>institution</code> et une annèe <code>year</code></li>
+</ul>
+<pre><code>interests:
+- I 
+- and myself
+education:
+  courses:
+  - course:  Economics
+    institution:  University
+    year: 2017</code></pre>
+</div>
+</div>
+<div id="les-elements-consituants-la-page" class="section level2">
+<h2>Les éléments consituants la page</h2>
+<div id="ordre-des-elements-et-sections-sur-la-page" class="section level3">
+<h3>Ordre des éléments et sections sur la page</h3>
+<p>L’ordre d’affichage des sections sur la page principale vient du poids ou rang défini sur chaque fichier de définition de la section :</p>
+<p><code>content/home/myfile.md</code> où <code>myfile.md</code> pourra être <code>skills.md</code> ou <code>publications.md</code>.</p>
+<p>Dans le toml de chaque fichier de section, on retrouve les champs :</p>
+<ul>
+<li><p><code>widget</code>, <code>headless</code> dont la définition m’échappe encore (malgré <a href="https://sourcethemes.com/academic/docs/page-builder/" class="uri">https://sourcethemes.com/academic/docs/page-builder/</a>). <code>widget="pages"</code> affiche la section complète, alors que <code>widget="portfolio"</code> affiche une mosaique clicable.</p></li>
+<li><code>active</code>: pour rendre actif ou nom un widget</li>
+<li><code>weight</code>: pour définir la position de la section en page principale</li>
+<li><p><code>title</code> et <code>subtitle</code>: définissent les titres</p></li>
+</ul>
+<pre><code>widget = &quot;pages&quot;  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = false  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 90  # Order that this section will appear.
+title = &quot;Publications&quot;
+subtitle = &quot;&quot;</code></pre>
+</div>
+<div id="le-menu-en-haut-de-page" class="section level3">
+<h3>Le menu en haut de page</h3>
+<p>Il se définit dans <code>config/_default/menus.toml</code>
+On définit une section par l’accroche <code>main</code> définissant <code>name</code> l’élément de menu, <code>url</code> indiquant le lien interne de la page ciblée et <code>weight</code> précisant le poids ou le rang dans l’ordre d’apparition du menu.
+La liste et l’ordre de éléments du menus peuvent être différents de ceux affichés sur la page principale.</p>
+<pre><code>[[main]]
+    name = &quot;cv&quot;
+    url = &quot;#cv&quot;
+    weight = 70</code></pre>
+</div>
+<div id="les-skills" class="section level3">
+<h3>Les skills</h3>
+</div>
+<div id="les-contacts-et-la-map" class="section level3">
+<h3>Les contacts et la map</h3>
+<p>Dans <code>config/_default/params.toml</code></p>
+</div>
+</div>
+<div id="la-mise-en-page" class="section level2">
+<h2>La mise en page</h2>
+<p>Dans <code>config/_default/params.toml</code></p>
+<pre class="r"><code># Color theme.
+#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
+color_theme = &quot;iragael&quot;
+
+
+# Override the theme&#39;s font set (optional).
+#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Browse user installed font sets in `data/fonts/`
+font = &quot;iragael&quot;
+
+# Choose a font size.
+# Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
+font_size = &quot;S&quot;</code></pre>
+</div>
+</div>
+<div id="fonctions-de-base" class="section level1">
+<h1>Fonctions de base</h1>
+<p><code>blogdown::build_site()</code></p>
+</div>
+<div id="workflow" class="section level1">
+<h1>Workflow :</h1>
+<ol start="0" style="list-style-type: decimal">
+<li>Installer R et RStudio</li>
+<li>Créer un BlogDown avec RStudio</li>
+<li>Créer son GitHub</li>
+<li>Installer Git sur sa machine (certainement optionel, sauf si instal de l’add-on Git dans RStudio ?)</li>
+<li>Synchroniser Git et RStudio
+<ul>
+<li>Commit</li>
+<li>Push</li>
+</ul></li>
+<li>Créer un compte Netlify ou relier Netlify au compte GitHub</li>
+<li>Depuis Netlify,
+<ul>
+<li>créer un nouveau site web, en ciblant un repo de GitHub</li>
+<li>Accéder aux option de GitHub pour autoriser l’accés aux repo depuis Netlify</li>
+</ul></li>
+<li>Laisser mouliner.</li>
+</ol>
+<p>Des fois ça marche… d’autres moins</p>
+<div id="reste-a-voir" class="section level2">
+<h2>REste à voir</h2>
+<ol style="list-style-type: decimal">
+<li>comment changer le thème hugo ‘on live’</li>
+<li>Comment utiliser la clé de connexion ssh entre Rstudio et GitHub</li>
+</ol>
+</div>
+</div>
+<div id="synchronising-with-github" class="section level1">
+<h1>Synchronising with GitHub</h1>
+<p><em>R packages</em> Git and GitHub:</p>
+<p><a href="http://r-pkgs.had.co.nz/git.html#git-init" class="uri">http://r-pkgs.had.co.nz/git.html#git-init</a></p>
+</div>
+<div id="top-tuto" class="section level1">
+<h1>Top Tuto</h1>
+<p><em>Excellent blog de Peter Baumgartner</em> :</p>
+<p><a href="https://notes.peter-baumgartner.net/" class="uri">https://notes.peter-baumgartner.net/</a></p>
+<p><a href="https://notes.peter-baumgartner.net/tutorial/blogdown-tutorial-part-4/" class="uri">https://notes.peter-baumgartner.net/tutorial/blogdown-tutorial-part-4/</a></p>
+</div>
+<div id="references-et-web-sites" class="section level1">
+<h1>Références et Web Sites</h1>
+<ul>
+<li><p><a href="https://github.com/Iragael38/" class="uri">https://github.com/Iragael38/</a></p></li>
+<li><p><a href="https://app.netlify.com/teams/ijoly-research/sites" class="uri">https://app.netlify.com/teams/ijoly-research/sites</a></p></li>
+</ul>
+<div id="tuto" class="section level2">
+<h2>Tuto</h2>
+<ul>
+<li><a href="https://stateofther.github.io/finistR2017/blogdown.html" class="uri">https://stateofther.github.io/finistR2017/blogdown.html</a></li>
+</ul>
+<p><a href="https://lcolladotor.github.io/2018/03/07/blogdown-insert-image-addin/" class="uri">https://lcolladotor.github.io/2018/03/07/blogdown-insert-image-addin/</a></p>
+<p><a href="https://support.rbind.io/2017/06/16/academic-site-apreshill/" class="uri">https://support.rbind.io/2017/06/16/academic-site-apreshill/</a></p>
+<p><a href="https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/" class="uri">https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/</a></p>
+<p><a href="https://www.dsquintana.blog/free-website-in-r-easy/" class="uri">https://www.dsquintana.blog/free-website-in-r-easy/</a></p>
+<p><a href="https://lmyint.github.io/post/hugo-academic-tips/" class="uri">https://lmyint.github.io/post/hugo-academic-tips/</a></p>
+</div>
+<div id="sites-blog-appreciables" class="section level2">
+<h2>Sites &amp; Blog appréciables</h2>
+<p><a href="http://lcolladotor.github.io/" class="uri">http://lcolladotor.github.io/</a></p>
+<p><a href="https://rubenfcasal.github.io/post/getting-started/" class="uri">https://rubenfcasal.github.io/post/getting-started/</a></p>
+<p><a href="http://www.pik-potsdam.de/~pichler/blog/post/set-this-up/setting-up-this-site/" class="uri">http://www.pik-potsdam.de/~pichler/blog/post/set-this-up/setting-up-this-site/</a></p>
+<p><a href="https://lmyint.github.io/post/hugo-academic-tips/" class="uri">https://lmyint.github.io/post/hugo-academic-tips/</a></p>
+</div>
+<div id="sites-dimages" class="section level2">
+<h2>Sites d’images</h2>
+<div id="libres" class="section level3">
+<h3>Libres</h3>
+<p><a href="https://unsplash.com/explore/searches" class="uri">https://unsplash.com/explore/searches</a></p>
+</div>
+<div id="web-comics" class="section level3">
+<h3>Web comics</h3>
+<p><a href="https://xkcd.com/" class="uri">https://xkcd.com/</a></p>
+</div>
+</div>
+</div>
+<div id="cacher-une-section" class="section level1">
+<h1>CAcher une section</h1>
+<p>Dans <code>\content\home\</code> on trouve les fichiers de design des sections, dont l’option <code>active=true/false</code></p>
+</div>
+<div id="inserer-une-image-dans-un-post" class="section level1">
+<h1>Inserer une image dans un post</h1>
+<p>Cela nécessite de copier l’image à charger dans un dossier présent dans static (éventuellement le dossier du post ou non)</p>
+<div class="figure">
+<img src="/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg" alt="Hey" />
+<p class="caption">Hey</p>
+</div>
+<p><img alt = 'my new screenshot' width='200' src='/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg' /></p>
+<p><img alt = 'my new screenshot' width='600' height='80'  src='/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg' /></p>
+<div class="figure">
+<img src="/Resume/Resume_files/header_ECUREUIL_8563bfcd1b052ba889107feeaee32b8e.jpg" alt="Iragaël Joly" style="width:50.0%" />
+<p class="caption">Iragaël Joly</p>
+</div>
+<figure class="kg-card kg-card-image kg-card-hascaption">
+&lt;img src=‘/authors/admin/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg’ alt=“Photo by” class=“kg-image”
+<figcaption>
+Photo by Josue Isai Ramos Figueroa <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
+</figcaption>
+</figure>
+</div>
+<div id="references" class="section level1">
+<h1>Références</h1>
+<ul>
+<li>Xie, Yihui. 2017a. Blogdown: Create Blogs and Websites with R Markdown. <a href="https://github.com/rstudio/blogdown" class="uri">https://github.com/rstudio/blogdown</a>.</li>
+</ul>
+</div>

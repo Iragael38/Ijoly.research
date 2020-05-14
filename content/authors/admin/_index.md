@@ -27,7 +27,7 @@ social:
   link: https://github.com/Iragael38
 - icon: cv
   icon_pack: ai
-  link: file/cv.pdf
+  link: file/CV_Mars2020.pdf
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Iragael_Joly

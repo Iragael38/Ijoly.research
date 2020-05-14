@@ -2,7 +2,7 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by James Lee <a href="https://unsplash.com/photos/TE_fvX7fhD8">on Unsplash </a>
+  caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 links:
 - icon: twitter
@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/georgecushen
 slides: example
-summary: "Research Project: Digital technologies in circular economy transition: Evidences from case studies."
+summary: "Digital technologies in circular economy transition: Evidences from case studies."
 tags:
 - Deep Learning
 title: Digital technologies & Circular Economy

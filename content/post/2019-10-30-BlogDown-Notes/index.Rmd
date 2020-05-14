@@ -1,0 +1,90 @@
+---
+title: Construction Journal
+author: IJ
+date: '2019-09-20'
+slug: journal
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-10-02'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# To DO
+
++ Afficher la page résumer à partir du menu, mais pas sur la page d'accueil
++ Idem avec les publications
+  - revoir featured publis ?
+  - revoir le lien 'publications' tout seul après la liste
++ Ajouter le bouton 'cite' sur les publis
++ REvoir les liens vers réseaux soc
++ Transformer les Talks en cours ? 
++ Changer l'angle gauche: academic
++ Voir import des ref bib depuis hal ? Zotero ?
+
+# Foreword
+
+Publishing with RStudio, blogdown, Hugo, Github, Netlify is like swimming in a open ocean: new version appears, post and tutos are getting out-dated and/or up-dated $\rightarrow$ you have to adapt your code writing, reasonning
+
+> adaptability is the key
+
+
+# In this ocean some points are my lighthouses:
+## Sources, references and inspiration
+
+I have been using many sources of inspiration. Here are those that I visit again frequently:
+
+- the blogdown blog:
+- Great blog of **XXX**: an example of pretty blog and a collection of usefull posts: [http://lcolladotor.github.io/](http://lcolladotor.github.io/)
+- The blog where I start: **XXX** is a teacher, the posts are written as lessons which make them useful for the apprentice on blogdown, Github, Netlify: 
+(https://notes.peter-baumgartner.net/)[https://notes.peter-baumgartner.net/
+]
+- Famous blog from Rstudio insider, **Alisson**:
+(https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/
+)[https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/
+]
+
+- https://www.dsquintana.blog/free-website-in-r-easy/
+- https://stateofther.github.io/finistR2017/blogdown.html
+- https://rubenfcasal.github.io/post/getting-started/
+- (http://www.pik-potsdam.de/~pichler/blog/post/set-this-up/setting-up-this-site/
+)[http://www.pik-potsdam.de/~pichler/blog/post/set-this-up/setting-up-this-site/
+]
+
+# **First step** Synchronising with GitHub
+
+*R packages* Git and GitHub:
+
+http://r-pkgs.had.co.nz/git.html#git-init
+
+# Some new sources to explore
+
+- http://varianceexplained.org/
+- https://floswald.github.io/
+
+
+
+# Some Git instructions
+
+## Synchronise a local folder with a repo - WITHOUT R
+
+1. Locate the local folder to be sync.
+ `cd C:/Users/ijoly.INRA/Desktop/Dir_GI/Institut_IA/ChaireIA_Indus40/MIAI_lemaire/Metropolis`
+2. Initiate the git-folder
+ `git init`  
+ `git remote add origin https://github.com/Iragael38/IA_presentation_PL_IJ.git`
+3. Check the repo
+ `git remote -v`
+4. First commit 
+`git commit -m "Initial commit"`
+5. Push
+`git push -u origin master`
+6. Pull
+`git pull origin master`

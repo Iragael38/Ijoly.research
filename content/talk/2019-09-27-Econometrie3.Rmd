@@ -25,10 +25,13 @@ Bienvenue sur la page présentant le cours **Econométrie des Variables Qualitat
 
 Espace Caseine du cours [Econométrie 3](https://caseine.org/course/view.php?id=346)
 
+
+```{r}
 ## Quelques scripts & data utilisés en cours
+#Script pour le calcul des oddratio:  [Oddratio.R](files/Eco3_Script_Data/oddsratio.R).
+```
 
 
-Script pour le calcul des oddratio:  [Oddratio.R](files/Eco3_Script_Data/oddsratio.R).
 
 ## Références et url
 

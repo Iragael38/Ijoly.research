@@ -1,0 +1,26 @@
+---
+title: 'Liste de publis HAL'
+author: I Joly
+date: '2019-09-30'
+slug: journal
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-30'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# Liste de publis HAL
+
+[Lier les ID hal, orchid, etc](https://archibibscdf.hypotheses.org/997)
+
+[HAL](https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=iraga%C3%ABl+Joly&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css)
+
+https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=iraga%C3%ABl+Joly&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css
