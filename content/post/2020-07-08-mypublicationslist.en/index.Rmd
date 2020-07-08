@@ -1,14 +1,14 @@
 ---
-title: 'My Publications List'
+title: "My Publications List"
 author: I Joly
-date: '2020-02-20'
-slug: journal
+date: '2020-07-08'
+slug: mypublicationslist
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-02-20'
+lastmod: '2020-07-08T11:24:55+02:00'
 featured: no
 image:
   caption: ''
@@ -17,6 +17,7 @@ image:
 projects: []
 bibliography: data/Liste_Publi3.bib 
 ---
+
 
 # My Publications List
 performed with `RefManageR` package
@@ -68,5 +69,4 @@ La liste de mes publications sur hal est réalisée à partir de [HAL-tools](htt
 ## Other tools to be explored (one day...)
 
 - [Lier les ID hal, orchid, etc](https://archibibscdf.hypotheses.org/997)
-
 
