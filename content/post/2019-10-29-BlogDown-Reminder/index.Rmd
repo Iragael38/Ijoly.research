@@ -182,6 +182,8 @@ font_size = "S"
 6. Depuis Netlify, 
    + créer un nouveau site web, en ciblant un repo de GitHub
    + Accéder aux option de GitHub pour autoriser l'accés aux repo depuis Netlify
+   + Attention (2020: ajouter une variable :
+   **HUGO_VERSION : 0.56.0** - bien faire attention au *trailing 0*)
 7. Laisser mouliner.
 
 Des fois ça marche... d'autres moins
