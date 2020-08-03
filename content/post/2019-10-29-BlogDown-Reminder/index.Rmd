@@ -232,6 +232,14 @@ https://www.dsquintana.blog/free-website-in-r-easy/
 
 https://lmyint.github.io/post/hugo-academic-tips/
 
+https://www.tylerclavelle.com/code/2017/blogdown/
+
+https://richardlent.github.io/post/how-i-deploy-my-website-to-github-using-rstudio-blogdown-and-hugo/
+
+https://aurora-mareviv.github.io/talesofr/2017/08/r-blogdown-setup-in-github/
+
+https://fengkehh.github.io/post/2017-03-16-how-this-blog-is-made-part-ii/#site-creation-submodule
+
 ## Sites & Blog appréciables
 
 http://lcolladotor.github.io/
