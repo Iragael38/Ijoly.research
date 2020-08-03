@@ -23,7 +23,7 @@ projects: []
 
 
 
-<div id="ou-est-quoi" class="section level1">
+<div id="où-est-quoi" class="section level1">
 <h1>Où est quoi ?</h1>
 <p>Ce premier essai de blogdown m’a paru être un jeu de piste. Pour pouvoir modifier une petite partie, un bout de texte, etc. il faut savoir où cela se cache et comment ça se calibre.</p>
 <p>Cette note est écrite pour répondre à ce besoin ressenti.</p>
@@ -85,17 +85,17 @@ education:
     year: 2017</code></pre>
 </div>
 </div>
-<div id="les-elements-constituant-la-page" class="section level2">
+<div id="les-éléments-constituant-la-page" class="section level2">
 <h2>Les éléments constituant la page</h2>
-<div id="ordre-des-elements-et-sections-sur-la-page" class="section level3">
+<div id="ordre-des-éléments-et-sections-sur-la-page" class="section level3">
 <h3>Ordre des éléments et sections sur la page</h3>
 <p>L’ordre d’affichage des sections sur la page principale vient du poids ou rang défini sur chaque fichier de définition de la section :</p>
 <p><code>content/home/myfile.md</code> où <code>myfile.md</code> pourra être <code>skills.md</code> ou <code>publications.md</code>.</p>
 <p>Dans le toml de chaque fichier de section, on retrouve les champs :</p>
 <ul>
 <li><p><code>widget</code>, <code>headless</code> dont la définition m’échappe encore (malgré <a href="https://sourcethemes.com/academic/docs/page-builder/" class="uri">https://sourcethemes.com/academic/docs/page-builder/</a>). <code>widget="pages"</code> affiche la section complète, alors que <code>widget="portfolio"</code> affiche une mosaique clicable.</p></li>
-<li><p><code>active</code>: pour rendre actif ou nom un widget</p></li>
-<li><p><code>weight</code>: pour définir la position de la section en page principale</p></li>
+<li><code>active</code>: pour rendre actif ou nom un widget</li>
+<li><code>weight</code>: pour définir la position de la section en page principale</li>
 <li><p><code>title</code> et <code>subtitle</code>: définissent les titres</p></li>
 </ul>
 <pre><code>widget = &quot;pages&quot;  # See https://sourcethemes.com/academic/docs/page-builder/
@@ -169,11 +169,13 @@ font_size = &quot;S&quot;</code></pre>
 <ul>
 <li>créer un nouveau site web, en ciblant un repo de GitHub</li>
 <li>Accéder aux option de GitHub pour autoriser l’accés aux repo depuis Netlify</li>
+<li>Attention (2020: ajouter une variable :
+<strong>HUGO_VERSION : 0.56.0</strong> - bien faire attention au <em>trailing 0</em>)</li>
 </ul></li>
 <li>Laisser mouliner.</li>
 </ol>
 <p>Des fois ça marche… d’autres moins</p>
-<div id="reste-a-voir" class="section level2">
+<div id="reste-à-voir" class="section level2">
 <h2>REste à voir</h2>
 <ol style="list-style-type: decimal">
 <li>comment changer le thème hugo ‘on live’</li>
@@ -192,7 +194,7 @@ font_size = &quot;S&quot;</code></pre>
 <p><a href="https://notes.peter-baumgartner.net/" class="uri">https://notes.peter-baumgartner.net/</a></p>
 <p><a href="https://notes.peter-baumgartner.net/tutorial/blogdown-tutorial-part-4/" class="uri">https://notes.peter-baumgartner.net/tutorial/blogdown-tutorial-part-4/</a></p>
 </div>
-<div id="references-et-web-sites" class="section level1">
+<div id="références-et-web-sites" class="section level1">
 <h1>Références et Web Sites</h1>
 <ul>
 <li><p><a href="https://github.com/Iragael38/" class="uri">https://github.com/Iragael38/</a></p></li>
@@ -209,7 +211,7 @@ font_size = &quot;S&quot;</code></pre>
 <p><a href="https://www.dsquintana.blog/free-website-in-r-easy/" class="uri">https://www.dsquintana.blog/free-website-in-r-easy/</a></p>
 <p><a href="https://lmyint.github.io/post/hugo-academic-tips/" class="uri">https://lmyint.github.io/post/hugo-academic-tips/</a></p>
 </div>
-<div id="sites-blog-appreciables" class="section level2">
+<div id="sites-blog-appréciables" class="section level2">
 <h2>Sites &amp; Blog appréciables</h2>
 <p><a href="http://lcolladotor.github.io/" class="uri">http://lcolladotor.github.io/</a></p>
 <p><a href="https://rubenfcasal.github.io/post/getting-started/" class="uri">https://rubenfcasal.github.io/post/getting-started/</a></p>
@@ -263,7 +265,7 @@ font_size = &quot;S&quot;</code></pre>
 Photo by Josue Isai Ramos Figueroa <a href="https://unsplash.com/photos/qvBYnMuNJ9A">on Unsplash </a>
 </figcaption>
 </figure>
-<div id="inserer-une-image-dans-un-en-tete-de-post" class="section level3">
+<div id="insérer-une-image-dans-un-en-tête-de-post" class="section level3">
 <h3>Insérer une image dans un en-tête de post:</h3>
 <p>On précise les éléments: <code>caption</code> et <code>focal point</code>. Mais l’image doit être dans le dossier du post avec le nom <code>featured.jpg</code>.
 <em>Remarque</em>, le nom du fichier du post est <code>index.Rmd</code></p>
@@ -271,7 +273,7 @@ Photo by Josue Isai Ramos Figueroa <a href="https://unsplash.com/photos/qvBYnMuN
   caption: Photo by Josue Isai Ramos Figueroa  &lt;a href=&quot;https://unsplash.com/photos/qvBYnMuNJ9A&quot;&gt;on Unsplash &lt;/a&gt;
   focal_point: &#39;center&#39;</code></pre>
 </div>
-<div id="inserer-une-image-dans-le-coeur-dun-post" class="section level3">
+<div id="insérer-une-image-dans-le-coeur-dun-post" class="section level3">
 <h3>Insérer une image dans le coeur d’un post</h3>
 <p>On insère l’image par l’instruction suivante.
 Le fichier image est dans le dossier du post (une copie dans <code>static\img\</code> semble utile)</p>
@@ -289,7 +291,7 @@ Le fichier image est dans le dossier du post (une copie dans <code>static\img\</
 </ul>
 </div>
 </div>
-<div id="references" class="section level1">
+<div id="références" class="section level1">
 <h1>Références</h1>
 <ul>
 <li>Xie, Yihui. 2017a. Blogdown: Create Blogs and Websites with R Markdown. <a href="https://github.com/rstudio/blogdown" class="uri">https://github.com/rstudio/blogdown</a>.</li>
