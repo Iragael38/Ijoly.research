@@ -6,7 +6,6 @@ date: '2019-09-20'
 slug: journal
 categories: []
 tags: []
-subtitle: ''
 summary: ''
 authors: []
 lastmod: '2019-10-02'

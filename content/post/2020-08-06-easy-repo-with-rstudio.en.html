@@ -1,0 +1,53 @@
+---
+title: Easy blogdown and Git-Repo with RStudio
+author: IJ
+date: '2020-08-06'
+slug: easy-repo-with-rstudio
+categories:
+  - R
+tags:
+  - Git
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-08-06T11:36:27+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Une note rapide pour créer un blogdown connecté à un repo sur GitHub et le synchroniser avec RStudio</p>
+<div id="step-1-créer-le-repo-sur-github-ou-gitlab" class="section level2">
+<h2>Step 1: Créer le repo sur Github (ou GitLab)</h2>
+</div>
+<div id="step-2-créer-un-repo-local-sur-la-machine" class="section level2">
+<h2>Step 2: Créer un repo local sur la machine</h2>
+</div>
+<div id="step-3-lier-les-deux-repo-remote-et-local" class="section level2">
+<h2>Step 3: Lier les deux repo: <em>Remote</em> et <em>local</em></h2>
+<pre><code>cd /Git/[USERNAME].github.io # your path may be different
+git init # initiates repo in the directory
+git remote add origin https://github.com/[USERNAME]/[USERNAME].github.io # connects git local repo to remote Github repo
+git pull origin master </code></pre>
+</div>
+<div id="step-4-créer-le-blogdown" class="section level2">
+<h2>Step 4: Créer le Blogdown</h2>
+<pre class="r"><code>library(blogdown)
+new_site(install_hugo = TRUE, theme = &quot;vimux/mainroad&quot;)</code></pre>
+</div>
+<div id="step-5-mise-à-jour-du-repo" class="section level2">
+<h2>Step 5: Mise à jour du repo</h2>
+<p><em>Commit</em> and <em>push</em></p>
+<pre><code>cd /Git/[USERNAME].github.io # your path to the repo may be different
+git add . # indexes all files that wil be added to the local repo
+git commit -m &quot;Starting my Hugo blog&quot; # adds all files to the local repo, with a commit message</code></pre>
+<p>Pushing to GitHub</p>
+<pre><code>git push origin master # we push the changes from the local git repo to the remote repo (GitHub repo)</code></pre>
+<p>References:</p>
+<p>(<a href="https://aurora-mareviv.github.io/talesofr/2017/08/r-blogdown-setup-in-github/" class="uri">https://aurora-mareviv.github.io/talesofr/2017/08/r-blogdown-setup-in-github/</a>)</p>
+</div>

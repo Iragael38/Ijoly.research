@@ -38,7 +38,7 @@ git pull origin master
 
 ## Step 4: Créer le Blogdown
 
-```{r}
+```{r eval=FALSE}
 library(blogdown)
 new_site(install_hugo = TRUE, theme = "vimux/mainroad")
 ```
