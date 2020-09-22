@@ -1,0 +1,64 @@
+---
+title: Easy blogdown and Git-Repo with RStudio
+author: IJ
+date: '2020-08-06'
+slug: easy-repo-with-rstudio
+categories:
+  - R
+tags:
+  - Git
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-08-06T11:36:27+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+Une note rapide pour créer un blogdown connecté à un repo sur GitHub et le synchroniser avec RStudio
+
+## Step 1: Créer le repo sur Github (ou GitLab)
+
+## Step 2: Créer un repo local sur la machine
+
+## Step 3: Lier les deux repo: *Remote* et *local*
+
+```
+cd /Git/[USERNAME].github.io # your path may be different
+git init # initiates repo in the directory
+git remote add origin https://github.com/[USERNAME]/[USERNAME].github.io # connects git local repo to remote Github repo
+git pull origin master 
+```
+
+## Step 4: Créer le Blogdown
+
+```{r}
+library(blogdown)
+new_site(install_hugo = TRUE, theme = "vimux/mainroad")
+```
+
+## Step 5: Mise à jour du repo
+
+*Commit* and *push*
+
+```
+cd /Git/[USERNAME].github.io # your path to the repo may be different
+git add . # indexes all files that wil be added to the local repo
+git commit -m "Starting my Hugo blog" # adds all files to the local repo, with a commit message
+```
+
+Pushing to GitHub
+
+```
+git push origin master # we push the changes from the local git repo to the remote repo (GitHub repo)
+```
+
+References:
+
+(https://aurora-mareviv.github.io/talesofr/2017/08/r-blogdown-setup-in-github/)

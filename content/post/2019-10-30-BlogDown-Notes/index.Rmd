@@ -1,5 +1,6 @@
 ---
-title: Construction Journal
+title: First Post 
+subtitle: Construction Journal
 author: IJ
 date: '2019-09-20'
 slug: journal
@@ -17,17 +18,6 @@ image:
 projects: []
 ---
 
-# To DO
-
-+ Afficher la page résumer à partir du menu, mais pas sur la page d'accueil
-+ Idem avec les publications
-  - revoir featured publis ?
-  - revoir le lien 'publications' tout seul après la liste
-+ Ajouter le bouton 'cite' sur les publis
-+ REvoir les liens vers réseaux soc
-+ Transformer les Talks en cours ? 
-+ Changer l'angle gauche: academic
-+ Voir import des ref bib depuis hal ? Zotero ?
 
 # Foreword
 
@@ -42,11 +32,11 @@ Publishing with RStudio, blogdown, Hugo, Github, Netlify is like swimming in a o
 I have been using many sources of inspiration. Here are those that I visit again frequently:
 
 - the blogdown blog:
-- Great blog of **XXX**: an example of pretty blog and a collection of usefull posts: [http://lcolladotor.github.io/](http://lcolladotor.github.io/)
-- The blog where I start: **XXX** is a teacher, the posts are written as lessons which make them useful for the apprentice on blogdown, Github, Netlify: 
+- Great blog of **Leonardo Collado-Torres**: an example of pretty blog and a collection of usefull posts: [http://lcolladotor.github.io/](http://lcolladotor.github.io/)
+- The blog where I start: **Peter Baumgartner** is a teacher, the posts are written as lessons which make them useful for the apprentice on blogdown, Github, Netlify: 
 (https://notes.peter-baumgartner.net/)[https://notes.peter-baumgartner.net/
 ]
-- Famous blog from Rstudio insider, **Alisson**:
+- Famous blog from Rstudio insider, **Alisson Hill**:
 (https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/
 )[https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/
 ]
