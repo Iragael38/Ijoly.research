@@ -1,7 +1,7 @@
 ---
 authors:
 name: Iragaël Joly
-role: Assistant Professor, Doctor in Economics & Data Scientist
+role: Assistant Professor, HDR, Doctor in Economics & Data Scientist
 bio: My research interests include consumption and behavior econometric modelling applied to transport, food and innovative products. 
 organizations:
 - name: Industriel Engineering and Management School - Grenoble Inp
